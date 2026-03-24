@@ -1,0 +1,61 @@
+{
+  "report_period": {
+    "month": "November",
+    "year": 2024,
+    "generated_at": "2024-11-30T18:00:00"
+  },
+  "source_core_banking": {
+    "total_active_loans": 148,
+    "total_portfolio_value_pln": 42500000,
+    "total_disbursed_this_month_pln": 3200000,
+    "total_repaid_this_month_pln": 2850000,
+    "total_overdue_pln": 1870000,
+    "total_written_off_pln": 320000,
+    "new_loans_this_month": 12,
+    "closed_loans_this_month": 5,
+    "average_loan_size_pln": 287162,
+    "average_interest_rate_pct": 8.75,
+    "loan_book_by_product": [
+      { "product": "Working Capital Loan", "count": 82, "value_pln": 24500000 },
+      { "product": "Equipment Finance",    "count": 41, "value_pln": 12300000 },
+      { "product": "Trade Finance",        "count": 25, "value_pln": 5700000  }
+    ],
+    "overdue_buckets": [
+      { "bucket": "1-30 days",  "count": 8,  "value_pln": 920000  },
+      { "bucket": "31-60 days", "count": 5,  "value_pln": 610000  },
+      { "bucket": "61-90 days", "count": 3,  "value_pln": 340000  },
+      { "bucket": "90+ days",   "count": 2,  "value_pln": 0        }
+    ],
+    "top_exposures": [
+      { "client": "Horizon Logistics Sp. z o.o.",     "loan_id": "LN-2024-00847", "outstanding_pln": 850000, "status": "Current"     },
+      { "client": "BuildPro Sp. z o.o.",              "loan_id": "LN-2024-00612", "outstanding_pln": 720000, "status": "Current"     },
+      { "client": "Grabowski Manufacturing Sp. z o.o.","loan_id": "LN-2023-00389","outstanding_pln": 680000, "status": "Restructured"},
+      { "client": "Retail Group Sp. z o.o.",          "loan_id": "LN-2024-00701", "outstanding_pln": 540000, "status": "Current"     },
+      { "client": "TechStartup S.A.",                 "loan_id": "LN-2023-00445", "outstanding_pln": 490000, "status": "Overdue 31-60"}
+    ]
+  },
+  "source_crm": {
+    "total_active_clients": 134,
+    "new_clients_this_month": 9,
+    "churned_clients_this_month": 2,
+    "clients_in_restructuring": 4,
+    "clients_flagged_for_review": 7,
+    "pipeline_value_pln": 8400000,
+    "pipeline_deals": 31,
+    "sector_breakdown": [
+      { "sector": "Transportation & Logistics", "clients": 28, "portfolio_pln": 9200000  },
+      { "sector": "Manufacturing",              "clients": 24, "portfolio_pln": 8400000  },
+      { "sector": "Retail & Distribution",      "clients": 31, "portfolio_pln": 11200000 },
+      { "sector": "Construction",               "clients": 19, "portfolio_pln": 7100000  },
+      { "sector": "Technology",                 "clients": 15, "portfolio_pln": 4200000  },
+      { "sector": "Other",                      "clients": 17, "portfolio_pln": 2400000  }
+    ]
+  },
+  "prior_month_comparison": {
+    "total_portfolio_value_pln": 42100000,
+    "total_active_loans": 141,
+    "total_overdue_pln": 1540000,
+    "new_loans": 10,
+    "total_disbursed_pln": 2900000
+  }
+}

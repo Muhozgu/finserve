@@ -1,0 +1,47 @@
+[
+  {
+    "ticket_id": "TKT-2024-001",
+    "received_at": "2024-11-15T09:23:00",
+    "from_name": "Marek Kowalski",
+    "from_email": "m.kowalski@horizonlog.pl",
+    "company": "Horizon Logistics Sp. z o.o.",
+    "subject": "Question about my repayment schedule",
+    "body": "Hello, I recently received approval for a working capital loan of PLN 850,000. I would like to understand my repayment schedule in more detail. Specifically, I want to know the exact monthly instalment amount, the total interest I will pay over the 36-month term, and whether I can make early repayments without any penalty. Could you please send me a full amortisation table? Thank you, Marek Kowalski"
+  },
+  {
+    "ticket_id": "TKT-2024-002",
+    "received_at": "2024-11-15T10:45:00",
+    "from_name": "Anna Nowak",
+    "from_email": "a.nowak@buildpro.pl",
+    "company": "BuildPro Sp. z o.o.",
+    "subject": "URGENT — payment was taken twice from my account!!!",
+    "body": "This is absolutely unacceptable. Your system has taken two payments from my account this month — one on the 1st and another on the 8th of November. I have been charged PLN 12,400 twice and my account is now overdrawn. I need this resolved IMMEDIATELY and the duplicate payment refunded today. If this is not fixed by end of day I will be contacting my lawyer and the financial regulator. Anna Nowak, CEO BuildPro"
+  },
+  {
+    "ticket_id": "TKT-2024-003",
+    "received_at": "2024-11-15T11:10:00",
+    "from_name": "Piotr Wiśniewski",
+    "from_email": "piotr@techstartup.io",
+    "company": "TechStartup S.A.",
+    "subject": "How do I apply for a top-up loan?",
+    "body": "Hi, I have an existing loan with FinServe that I have been repaying for 18 months without any issues. I am now looking to expand my business and would like to apply for an additional loan on top of my existing facility. Could you explain the process for applying for a top-up or a second loan? What documents will I need and how long does the approval process usually take? Thanks, Piotr"
+  },
+  {
+    "ticket_id": "TKT-2024-004",
+    "received_at": "2024-11-15T13:30:00",
+    "from_name": "Katarzyna Zielinska",
+    "from_email": "k.zielinska@retailgroup.pl",
+    "company": "Retail Group Sp. z o.o.",
+    "subject": "Cannot log in to the client portal",
+    "body": "Hello, I have been trying to log in to the FinServe client portal since yesterday but keep getting an error message saying my account is locked. I need to access my loan statements urgently for an audit that is happening tomorrow morning. I have already tried resetting my password twice but the problem persists. Please help as soon as possible. Katarzyna Zielinska, Finance Director"
+  },
+  {
+    "ticket_id": "TKT-2024-005",
+    "received_at": "2024-11-15T14:55:00",
+    "from_name": "Tomasz Grabowski",
+    "from_email": "t.grabowski@manufacturing.pl",
+    "company": "Grabowski Manufacturing Sp. z o.o.",
+    "subject": "Request to restructure my loan due to financial difficulties",
+    "body": "Dear FinServe team, I am writing to inform you that our company has been experiencing serious cash flow difficulties over the past three months due to the loss of a major contract. We are currently unable to meet our monthly repayment obligation of PLN 18,500. I would like to formally request a loan restructuring — either a temporary payment holiday of 3 months or a reduction in monthly instalments. I hope we can find a solution together. Tomasz Grabowski, Director"
+  }
+]

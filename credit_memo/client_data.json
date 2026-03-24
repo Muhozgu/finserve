@@ -1,0 +1,79 @@
+{
+  "source_crm": {
+    "company_name": "Horizon Logistics Sp. z o.o.",
+    "legal_form": "Limited Liability Company",
+    "registration_number": "KRS 0000512784",
+    "tax_id": "NIP 527-281-44-93",
+    "incorporation_date": "2015-03-22",
+    "industry": "Transportation & Logistics",
+    "address": "ul. Przemyslowa 14, 02-496 Warsaw, Poland",
+    "contact_name": "Marek Kowalski",
+    "contact_title": "CEO & Founder",
+    "contact_email": "m.kowalski@horizonlog.pl",
+    "contact_phone": "+48 22 601 55 78",
+    "existing_client": false,
+    "referred_by": "Partner — TruckFinance.pl",
+    "account_manager": "Anna Wisniewska",
+    "relationship_notes": "First-time applicant. Referred by trusted partner. CEO has strong industry reputation."
+  },
+  "source_core_banking": {
+    "currency": "PLN",
+    "financials": {
+      "year_2023": {
+        "revenue": 4200000,
+        "ebitda": 630000,
+        "net_profit": 310000,
+        "total_assets": 3800000,
+        "total_debt": 1100000,
+        "equity": 1540000,
+        "cash": 420000
+      },
+      "year_2022": {
+        "revenue": 3650000,
+        "ebitda": 510000,
+        "net_profit": 240000,
+        "total_assets": 3200000,
+        "total_debt": 950000,
+        "equity": 1230000,
+        "cash": 310000
+      },
+      "year_2021": {
+        "revenue": 2980000,
+        "ebitda": 390000,
+        "net_profit": 175000,
+        "total_assets": 2700000,
+        "total_debt": 880000,
+        "equity": 990000,
+        "cash": 270000
+      }
+    },
+    "existing_facilities": [
+      {
+        "lender": "PKO Bank Polski",
+        "type": "Term Loan",
+        "outstanding_pln": 480000,
+        "monthly_payment_pln": 15000,
+        "status": "Current"
+      }
+    ],
+    "payment_history": "No defaults or late payments in the past 36 months",
+    "credit_bureau_score": 742
+  },
+  "source_loan_application": {
+    "application_id": "APP-2024-00847",
+    "submitted_date": "2024-11-15",
+    "product_type": "Working Capital Loan",
+    "amount_pln": 850000,
+    "currency": "PLN",
+    "requested_term_months": 36,
+    "purpose": "Fleet expansion — purchase of 4 refrigerated trucks to fulfil a new contract with a major retail chain",
+    "repayment_type": "Monthly equal instalments",
+    "collateral_offered": "Fiduciary transfer of purchased vehicles + personal guarantee of majority shareholder",
+    "supporting_documents": [
+      "Audited financial statements 2021-2023",
+      "Draft contract with retail chain client",
+      "Vehicle purchase quotations",
+      "Personal guarantee declaration"
+    ]
+  }
+}
