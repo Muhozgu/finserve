@@ -1,0 +1,21 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="o0nDHmrc8a141v-R5Nh3">
+    <mxGraphModel dx="680" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M52MxGVzh3NMKq56l_B3-6" edge="1" parent="1" source="M52MxGVzh3NMKq56l_B3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M52MxGVzh3NMKq56l_B3-1" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#FFFFFF;labelBackgroundColor=#FFFFFF;fontSize=12;spacingTop=3;image=img/lib/ibm/data/data_sources.svg;whiteSpace=wrap;labelBorderColor=#FFFFFF;" value="Partners, websites, ...[email]" vertex="1">
+          <mxGeometry height="60" width="60" x="210" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="M52MxGVzh3NMKq56l_B3-5" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.customer_gateway;fillColor=#F58536;gradientColor=none;fontColor=#FFFFFF;textShadow=0;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;Partners, websites, ...[email]&lt;/span&gt;" vertex="1">
+          <mxGeometry height="42" width="50" x="70" y="298" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
