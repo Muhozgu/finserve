@@ -130,7 +130,7 @@
           <mxGeometry height="326" width="431" x="241" y="530" as="geometry" />
         </mxCell>
         <mxCell id="M52MxGVzh3NMKq56l_B3-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#1A1A1A;fontSize=29;" value="CS Operations" vertex="1">
-          <mxGeometry height="30" width="199" x="562" y="858" as="geometry" />
+          <mxGeometry height="30" width="199" x="554" y="837" as="geometry" />
         </mxCell>
         <mxCell id="gdphZiL_bscpEuKJ3JqM-37" edge="1" parent="1" source="gdphZiL_bscpEuKJ3JqM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gdphZiL_bscpEuKJ3JqM-35" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -151,7 +151,7 @@
           <mxGeometry height="352" width="463" x="396" y="38" as="geometry" />
         </mxCell>
         <mxCell id="gdphZiL_bscpEuKJ3JqM-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#1A1A1A;fontSize=29;" value="Credit &amp;amp; Operations" vertex="1">
-          <mxGeometry height="30" width="199" x="733" y="360" as="geometry" />
+          <mxGeometry height="30" width="199" x="750" y="335" as="geometry" />
         </mxCell>
         <mxCell id="gdphZiL_bscpEuKJ3JqM-44" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;" value="for a ticket that require human&lt;div&gt;interaction, the the system will&amp;nbsp;&lt;/div&gt;&lt;div&gt;send it to the Human agent&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
