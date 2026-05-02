@@ -1,0 +1,81 @@
+<mxfile host="Electron" pages="3">
+  <diagram name="ETL" id="rxfFqKgFaa1pSh4S6UZQ">
+    <mxGraphModel dx="2398" dy="1032" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nyv36ZYpHaWKg1l5u9Q-9" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="79.9" width="84" x="50" y="506" as="geometry" />
+        </mxCell>
+        <mxCell id="3nyv36ZYpHaWKg1l5u9Q-1" parent="3nyv36ZYpHaWKg1l5u9Q-9" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.webplus_web_app_service;" value="" vertex="1">
+          <mxGeometry height="49.9" width="49.9" x="11" as="geometry" />
+        </mxCell>
+        <mxCell id="3nyv36ZYpHaWKg1l5u9Q-2" parent="3nyv36ZYpHaWKg1l5u9Q-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="[biedronka, lidl websites]" vertex="1">
+          <mxGeometry height="30" width="84" y="49.900000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="3nyv36ZYpHaWKg1l5u9Q-17" edge="1" parent="1" source="3nyv36ZYpHaWKg1l5u9Q-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;dashed=1;" target="3nyv36ZYpHaWKg1l5u9Q-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3nyv36ZYpHaWKg1l5u9Q-18" connectable="0" parent="3nyv36ZYpHaWKg1l5u9Q-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="data scraping" vertex="1">
+          <mxGeometry relative="1" x="-0.1469" y="-3" as="geometry">
+            <mxPoint x="3" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-PkOtW1wEBQ_yfXNKqja-8" edge="1" parent="1" source="3nyv36ZYpHaWKg1l5u9Q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-PkOtW1wEBQ_yfXNKqja-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PkOtW1wEBQ_yfXNKqja-11" edge="1" parent="1" source="3nyv36ZYpHaWKg1l5u9Q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352.0952671595983" y="530.9532889877453" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nyv36ZYpHaWKg1l5u9Q-4" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.json_script;" value="" vertex="1">
+          <mxGeometry height="43.356660231660236" width="31.683083976833974" x="227.00027522935778" y="509.2749588719154" as="geometry" />
+        </mxCell>
+        <mxCell id="-PkOtW1wEBQ_yfXNKqja-16" edge="1" parent="1" source="-PkOtW1wEBQ_yfXNKqja-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="-PkOtW1wEBQ_yfXNKqja-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PkOtW1wEBQ_yfXNKqja-7" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" value="DB 1" vertex="1">
+          <mxGeometry height="54.45" width="40.84" x="351" y="507" as="geometry" />
+        </mxCell>
+        <mxCell id="-PkOtW1wEBQ_yfXNKqja-18" edge="1" parent="1" source="-PkOtW1wEBQ_yfXNKqja-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="-PkOtW1wEBQ_yfXNKqja-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PkOtW1wEBQ_yfXNKqja-14" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.json_script;" value="" vertex="1">
+          <mxGeometry height="43.356660231660236" width="31.683083976833974" x="465" y="512.5449588719154" as="geometry" />
+        </mxCell>
+        <mxCell id="-PkOtW1wEBQ_yfXNKqja-15" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" value="DB 2" vertex="1">
+          <mxGeometry height="54.45" width="40.84" x="572.9997247706422" y="506" as="geometry" />
+        </mxCell>
+        <mxCell id="-PkOtW1wEBQ_yfXNKqja-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="271" width="784" x="-16" y="398.72" as="geometry" />
+        </mxCell>
+        <mxCell id="-PkOtW1wEBQ_yfXNKqja-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;ELT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="11.003374023437502" y="411.9966259765625" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="A8L6Qy4Nb-2Hd_Nk2xR1" name="Page-2">
+    <mxGraphModel dx="815" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kXxZB30ES2jTFTtsYf9B-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Backend&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="63" x="116" y="302" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zpExM7JDzbwDzh-bdS0r" name="Page-3">
+    <mxGraphModel dx="774" dy="516" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5Y4QDofN-qP5E51Bawsc-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Frontend&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="73" x="147" y="123" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
