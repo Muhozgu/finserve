@@ -1,21 +1,21 @@
-# FinServe — AI Automation for Financial Operations
+# FinServe - AI Automation for Financial Operations
 
 End-to-end AI automation project built for a fictional financial services company (FinServe) as part of a technical assessment. 
 The project identifies three high-impact business problems across the organisation and implements all three as working proof-of-concepts using Python and the Groq API (Llama 3.3 70B).
 
-Problem 1 — AI Credit Memo Generator
+Problem 1 - AI Credit Memo Generator
 
-Credit analysts at FinServe manually pull data from three internal systems — CRM, core banking, 
+Credit analysts at FinServe manually pull data from three internal systems - CRM, core banking, 
 and loan applications — into Word templates for every credit committee decision. This solution automates the full pipeline: it extracts and normalises data from all three sources, sends it to an AI model for ratio analysis, risk flagging, and narrative writing, and exports a professionally formatted Word document in seconds.
 
-Problem 2 — Support Ticket Triage
+Problem 2 - Support Ticket Triage
 
 The client support team answers every email individually with no shared knowledge base, 
 leading to inconsistent responses and slow handling times. This solution classifies each incoming ticket by category, urgency, and sentiment, flags complex cases for human review, and generates a professional draft response ready for the agent to approve and send.
 
-Problem 3 — Monthly Portfolio Report Generator
+Problem 3 - Monthly Portfolio Report Generator
 
-Finance and risk teams manually extract data from core banking and CRM systems into Excel each month to produce regulatory and internal reports — a time-consuming process prone to reconciliation errors. This solution automates data extraction, calculates key risk metrics (PAR30, NPL ratio, collection rate), and generates a fully formatted Word report with an AI-written executive summary, risk flags, and recommendations.
+Finance and risk teams manually extract data from core banking and CRM systems into Excel each month to produce regulatory and internal reports - a time-consuming process prone to reconciliation errors. This solution automates data extraction, calculates key risk metrics (PAR30, NPL ratio, collection rate), and generates a fully formatted Word report with an AI-written executive summary, risk flags, and recommendations.
 
 Why Problem 1 was chosen as the primary PoC
 
