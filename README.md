@@ -6,7 +6,7 @@ The project identifies three high-impact business problems across the organisati
 Problem 1 - AI Credit Memo Generator
 
 Credit analysts at FinServe manually pull data from three internal systems - CRM, core banking, 
-and loan applications — into Word templates for every credit committee decision. This solution automates the full pipeline: it extracts and normalises data from all three sources, sends it to an AI model for ratio analysis, risk flagging, and narrative writing, and exports a professionally formatted Word document in seconds.
+and loan applications - into Word templates for every credit committee decision. This solution automates the full pipeline: it extracts and normalises data from all three sources, sends it to an AI model for ratio analysis, risk flagging, and narrative writing, and exports a professionally formatted Word document in seconds.
 
 Problem 2 - Support Ticket Triage
 
