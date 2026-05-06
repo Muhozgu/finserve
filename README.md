@@ -20,6 +20,7 @@ Finance and risk teams manually extract data from core banking and CRM systems i
 Why Problem 1 was chosen as the primary PoC
 
 The credit memo generator sits at the core of FinServe's revenue process, demonstrates the full data-to-document pipeline end-to-end, requires genuine domain knowledge to build well, and produces measurable time savings from day one.
+
 Tech stack: Python · Groq API (Llama 3.3 70B) · python-docx · JSON data simulation · GitHub
 
 # Usage
