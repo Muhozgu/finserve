@@ -1,7 +1,4 @@
-
-
-
-
+# Triage system
 
 import json
 import os
