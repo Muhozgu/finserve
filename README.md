@@ -142,3 +142,6 @@ portfolio_data.json contains 2 sections — one per source system:
 # Diagram - Architecture
 
 You can find the fiagram on the link added on the repository description section or inside the attached `Guy_Muhoza_task.pdf/pptx` files on the page number 7.
+
+
+Key improvements
