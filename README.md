@@ -1,4 +1,4 @@
-# FinServe - AI Automation for Financial Operations
+# FinServe - Intelligent Financial Data Automation System 
 
 End-to-end AI automation project built for a fictional financial services company (FinServe). 
 The project identifies three high-impact business problems across the organisation and implements all three as working proof-of-concepts using Python and the Groq API (Llama 3.3 70B).
