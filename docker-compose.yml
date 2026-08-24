@@ -1,0 +1,34 @@
+services: 
+ postgres: 
+   image: postgres:15 
+   container_name: dbt_postgres 
+   restart: always
+   environment: 
+     POSTGRES_USER: muhozgu
+     POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+     POSTGRES_DB: ${POSTGRES_DB}
+   ports: 
+     - "5432:5432" 
+   volumes: 
+     - postgres_data:/var/lib/postgresql/data 
+   networks: 
+     - dbt_network 
+ 
+ dbt: 
+   build: . 
+   container_name: dbt_core 
+   command: sleep infinity
+   volumes: 
+     - ./dbt_project:/usr/app 
+     - ./dbt_project/.dbt:/root/.dbt
+   depends_on: 
+     - postgres 
+   networks: 
+     - dbt_network 
+ 
+volumes: 
+ postgres_data: 
+ 
+networks: 
+ dbt_network: 
+   driver: bridge
