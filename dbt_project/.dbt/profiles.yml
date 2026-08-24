@@ -1,7 +1,7 @@
 risk:
   outputs:
     dev:
-      dbname: risk_db
+      dbname: Risk_DB
       host: postgres
       pass: ok@2026
       port: 5432
