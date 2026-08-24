@@ -7,6 +7,6 @@ risk:
       port: 5432
       schema: dev_schema
       threads: 4
-      type: snowflake
+      type: postgres
       user: muhozgu
   target: dev
