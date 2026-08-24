@@ -19,7 +19,7 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
-from utils.helpers import make_ids, sample_indices
+from data_source.utils.helpers import make_ids, sample_indices
 
 
 LOAN_PURPOSES = ["Debt Consolidation", "Home Improvement", "Auto", "Medical",

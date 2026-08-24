@@ -32,7 +32,7 @@ from typing import List, Dict, Any
 import numpy as np
 import pandas as pd
 
-from config import (
+from data_source.config import (
     EMPLOYMENT_STATUS_VARIANTS,
     APPLICATION_STATUS_VARIANTS,
     PAYMENT_STATUS_VARIANTS,
