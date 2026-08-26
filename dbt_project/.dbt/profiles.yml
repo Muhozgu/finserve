@@ -1,0 +1,12 @@
+finserve_dbt:
+  outputs:
+    dev:
+      dbname: FINSERVE_DB
+      host: postgres
+      pass: Proximo@68
+      port: 5432
+      schema: finserve_schema
+      threads: 4
+      type: postgres
+      user: guybri
+  target: dev
