@@ -1,12 +1,13 @@
 finserve_dbt:
+  target: dev
+
   outputs:
     dev:
-      dbname: FINSERVE_DB
-      host: postgres
-      pass: Proximo@68
-      port: 5432
-      schema: finserve_schema
+      type: snowflake
+      account: "WQJCOHK-WB64060"
+      user: "MUHOZGU"
+      password: "Ph5S8Ainy2iS4hG"
+      warehouse: "FINSERVE_WH"
+      database: "FINSERVE_DB"
+      schema: "PUBLIC"
       threads: 4
-      type: postgres
-      user: guybri
-  target: dev
