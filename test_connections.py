@@ -1,46 +1,67 @@
-# test_connections.py
-import os
-from dotenv import load_dotenv
-import psycopg2
-import snowflake.connector
+from connections.postgres import get_postgres_connection
+from connections.snowflake import get_snowflake_connection
 
-# Load environment variables
-load_dotenv()
 
 def test_postgres():
+    connection = None
+
     try:
-        print("PostgreSQL connecting ...")
-        conn = psycopg2.connect(
-            host=os.getenv('POSTGRES_HOST', 'localhost'),
-            port=os.getenv('POSTGRES_PORT', '5432'),
-            user=os.getenv('POSTGRES_USER'),
-            password=os.getenv('POSTGRES_PASSWORD'),
-            database=os.getenv('POSTGRES_DATABASE')
-        )
+        connection = get_postgres_connection()
+
+        cursor = connection.cursor()
+
+        cursor.execute("""
+            SELECT
+                version();
+        """)
+
+        result = cursor.fetchone()
+
         print("PostgreSQL connection successful!")
-        conn.close()
-        return True
+        print(result)
+
+        cursor.close()
+
     except Exception as e:
-        print(f"PostgreSQL connection failed:\n{e}")
-        return False
+        print("PostgreSQL connection failed:")
+        print(e)
+
+    finally:
+        if connection:
+            connection.close()
+
 
 def test_snowflake():
+    connection = None
+
     try:
-        print("Snowflake connecting ...")
-        conn = snowflake.connector.connect(
-            user=os.getenv('SNOWFLAKE_USER'),
-            password=os.getenv('SNOWFLAKE_PASSWORD'),
-            account=os.getenv('SNOWFLAKE_ACCOUNT'),
-            warehouse=os.getenv('SNOWFLAKE_WAREHOUSE'),
-            database=os.getenv('SNOWFLAKE_DATABASE'),
-            schema=os.getenv('SNOWFLAKE_SCHEMA')
-        )
+        connection = get_snowflake_connection()
+
+        cursor = connection.cursor()
+
+        cursor.execute("""
+            SELECT
+                CURRENT_USER(),
+                CURRENT_DATABASE(),
+                CURRENT_SCHEMA(),
+                CURRENT_WAREHOUSE();
+        """)
+
+        result = cursor.fetchone()
+
         print("Snowflake connection successful!")
-        conn.close()
-        return True
+        print(result)
+
+        cursor.close()
+
     except Exception as e:
-        print(f"Snowflake connection failed:\n{e}")
-        return False
+        print("Snowflake connection failed:")
+        print(e)
+
+    finally:
+        if connection:
+            connection.close()
+
 
 if __name__ == "__main__":
     test_postgres()
