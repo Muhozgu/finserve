@@ -1,21 +1,19 @@
 import os
-import psycopg2
 from dotenv import load_dotenv
+import psycopg2
 
-load_dotenv()
+load_dotenv(override=True)  # Load environment variables from .env file, allowing overrides
 
 
 def get_postgres_connection():
     """
-    Create and return a PostgreSQL database connection.
+    Create and return a psycopg2 connection to the local Postgres container.
+    Reads host/port/db/user/password from environment variables.
     """
-
-    connection = psycopg2.connect(
-        host=os.getenv("POSTGRES_HOST"),
-        port=os.getenv("POSTGRES_PORT"),
-        database=os.getenv("POSTGRES_DATABASE"),
+    return psycopg2.connect(
+        host=os.getenv("POSTGRES_HOST", "localhost"),
+        port=os.getenv("POSTGRES_PORT", "5432"),
+        dbname=os.getenv("POSTGRES_DATABASE"),
         user=os.getenv("POSTGRES_USER"),
-        password=os.getenv("POSTGRES_PASSWORD")
+        password=os.getenv("POSTGRES_PASSWORD"),
     )
-
-    return connection
