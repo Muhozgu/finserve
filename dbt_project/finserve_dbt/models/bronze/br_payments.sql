@@ -4,4 +4,4 @@
 
 SELECT
     *
-FROM {{ ref('applications') }}
+FROM {{ ref('payments') }}
