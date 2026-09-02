@@ -14,8 +14,8 @@ Required environment variables (see .env.example):
     SNOWFLAKE_USER
     SNOWFLAKE_PASSWORD
     SNOWFLAKE_ROLE        (optional, default ACCOUNTADMIN)
-    SNOWFLAKE_WAREHOUSE   (optional, default NOVASPIN)
-    SNOWFLAKE_DATABASE    (optional, default NOVASPIN)
+    SNOWFLAKE_WAREHOUSE   (optional, default FINSERVE)
+    SNOWFLAKE_DATABASE    (optional, default FINSERVE)
 
 Usage:
     python loader/snowflake_loader.py --data-dir data/raw
@@ -32,11 +32,13 @@ from snowflake.connector.pandas_tools import write_pandas
 
 # Maps target Bronze table name -> source CSV filename
 TABLES = {
-    "dim_markets": "dim_markets.csv",
-    "dim_players": "dim_players.csv",
-    "fact_game_sessions": "fact_game_sessions.csv",
+    "customers": "customers.csv",
+    "applications": "applications.csv",
+    "loans": "loans.csv",
+    "payments": "payments.csv",
+    "credit_history": "credit_history.csv",
+    "risk_assessments": "risk_assessments.csv",
 }
-
 
 def get_connection():
     required = ["SNOWFLAKE_ACCOUNT", "SNOWFLAKE_USER", "SNOWFLAKE_PASSWORD"]
@@ -50,6 +52,7 @@ def get_connection():
         password=os.environ["SNOWFLAKE_PASSWORD"],
         role=os.environ.get("SNOWFLAKE_ROLE", "ACCOUNTADMIN"),
         warehouse=os.environ.get("SNOWFLAKE_WAREHOUSE", "COMPUTE_WH"),
+        database = os.environ.get("SNOWFLAKE_DATABASE", "FINSERVE") 
     )
 
 
@@ -83,12 +86,12 @@ def load_table(conn, database, schema, table_name, csv_path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Load NovaSpin CSVs into a Snowflake BRONZE schema.")
+    parser = argparse.ArgumentParser(description="Load Finserve CSVs into a Snowflake BRONZE schema.")
     parser.add_argument("--data-dir", type=str, default="data/raw", help="Directory containing the generated CSVs")
     parser.add_argument("--schema", type=str, default="BRONZE", help="Target Snowflake schema (default: BRONZE)")
     args = parser.parse_args()
 
-    database = os.environ.get("SNOWFLAKE_DATABASE", "NOVASPIN")
+    database = os.environ.get("SNOWFLAKE_DATABASE", "FINSERVE")
 
     for filename in TABLES.values():
         path = os.path.join(args.data_dir, filename)
