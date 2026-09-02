@@ -22,7 +22,7 @@ services:
       - ./data/raw:/app/data/raw
     command: >
       python data/generate_data.py
-      --players 8000 --sessions 150000 --output-dir data/raw
+      --customers 100000 --applications 150000 --loans 100000 --payments 1000000 --credit-history 300000 --output data
 
   loader:
     build: .

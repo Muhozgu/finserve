@@ -24,7 +24,7 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
-from data_source.utils.helpers import make_ids
+from data.utils.helpers import make_ids
 
 
 def generate_payments(

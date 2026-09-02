@@ -20,7 +20,7 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
-from data_source.utils.helpers import make_ids, random_dates
+from data.utils.helpers import make_ids, random_dates
 
 
 COUNTRIES = ["Poland", "Germany", "France", "United Kingdom", "Spain", "Italy", "Netherlands"]

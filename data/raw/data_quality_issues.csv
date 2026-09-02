@@ -1,0 +1,1418 @@
+issue_id,entity,record_id,issue_type,issue_description,severity,injected_at
+1,customers,CUST0000036,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+2,customers,CUST0000039,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+3,customers,CUST0000060,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+4,customers,CUST0000065,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+5,customers,CUST0000153,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+6,customers,CUST0000157,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+7,customers,CUST0000191,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+8,customers,CUST0000224,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+9,customers,CUST0000410,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+10,customers,CUST0000417,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+11,customers,CUST0000519,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+12,customers,CUST0000537,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+13,customers,CUST0000559,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+14,customers,CUST0000584,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+15,customers,CUST0000660,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+16,customers,CUST0000668,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+17,customers,CUST0000695,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+18,customers,CUST0000715,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+19,customers,CUST0000726,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+20,customers,CUST0000834,missing_annual_income,annual_income was set to NULL (simulated missing operational data),medium,2026-08-24
+21,customers,CUST0000023,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+22,customers,CUST0000033,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+23,customers,CUST0000161,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+24,customers,CUST0000316,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+25,customers,CUST0000341,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+26,customers,CUST0000442,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+27,customers,CUST0000522,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+28,customers,CUST0000527,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+29,customers,CUST0000534,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+30,customers,CUST0000690,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+31,customers,CUST0000724,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+32,customers,CUST0000733,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+33,customers,CUST0000741,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+34,customers,CUST0000768,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+35,customers,CUST0000769,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+36,customers,CUST0000781,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+37,customers,CUST0000785,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+38,customers,CUST0000790,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+39,customers,CUST0000853,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+40,customers,CUST0000855,missing_employment_status,employment_status was set to NULL (simulated missing operational data),medium,2026-08-24
+41,customers,CUST0000066,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+42,customers,CUST0000126,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+43,customers,CUST0000143,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+44,customers,CUST0000144,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+45,customers,CUST0000191,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+46,customers,CUST0000208,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+47,customers,CUST0000210,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+48,customers,CUST0000225,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+49,customers,CUST0000303,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+50,customers,CUST0000374,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+51,customers,CUST0000441,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+52,customers,CUST0000489,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+53,customers,CUST0000530,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+54,customers,CUST0000532,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+55,customers,CUST0000608,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+56,customers,CUST0000638,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+57,customers,CUST0000700,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+58,customers,CUST0000773,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+59,customers,CUST0000905,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+60,customers,CUST0000907,missing_monthly_income,monthly_income was set to NULL (simulated missing operational data),medium,2026-08-24
+61,customers,CUST0000084,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+62,customers,CUST0000134,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+63,customers,CUST0000158,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+64,customers,CUST0000162,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+65,customers,CUST0000201,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+66,customers,CUST0000393,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+67,customers,CUST0000415,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+68,customers,CUST0000417,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+69,customers,CUST0000677,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+70,customers,CUST0000686,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+71,customers,CUST0000713,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+72,customers,CUST0000763,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+73,customers,CUST0000807,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+74,customers,CUST0000813,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+75,customers,CUST0000815,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+76,customers,CUST0000864,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+77,customers,CUST0000917,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+78,customers,CUST0000920,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+79,customers,CUST0000953,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+80,customers,CUST0000963,missing_city,city was set to NULL (simulated missing operational data),medium,2026-08-24
+81,applications,APP0000072,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+82,applications,APP0000104,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+83,applications,APP0000166,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+84,applications,APP0000204,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+85,applications,APP0000213,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+86,applications,APP0000243,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+87,applications,APP0000280,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+88,applications,APP0000388,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+89,applications,APP0000486,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+90,applications,APP0000499,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+91,applications,APP0000568,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+92,applications,APP0000622,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+93,applications,APP0000687,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+94,applications,APP0000692,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+95,applications,APP0000812,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+96,applications,APP0000817,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+97,applications,APP0000832,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+98,applications,APP0000883,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+99,applications,APP0000923,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+100,applications,APP0000972,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+101,applications,APP0001014,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+102,applications,APP0001058,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+103,applications,APP0001083,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+104,applications,APP0001154,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+105,applications,APP0001228,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+106,applications,APP0001230,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+107,applications,APP0001244,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+108,applications,APP0001260,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+109,applications,APP0001435,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+110,applications,APP0001484,missing_requested_amount,requested_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+111,applications,APP0000006,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+112,applications,APP0000011,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+113,applications,APP0000107,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+114,applications,APP0000229,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+115,applications,APP0000259,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+116,applications,APP0000263,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+117,applications,APP0000287,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+118,applications,APP0000298,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+119,applications,APP0000330,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+120,applications,APP0000402,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+121,applications,APP0000436,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+122,applications,APP0000502,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+123,applications,APP0000555,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+124,applications,APP0000567,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+125,applications,APP0000605,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+126,applications,APP0000637,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+127,applications,APP0000661,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+128,applications,APP0000665,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+129,applications,APP0000668,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+130,applications,APP0000674,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+131,applications,APP0000686,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+132,applications,APP0000721,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+133,applications,APP0000778,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+134,applications,APP0000964,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+135,applications,APP0000973,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+136,applications,APP0001192,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+137,applications,APP0001214,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+138,applications,APP0001245,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+139,applications,APP0001294,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+140,applications,APP0001422,missing_loan_purpose,loan_purpose was set to NULL (simulated missing operational data),medium,2026-08-24
+141,loans,LOAN0000019,missing_loan_amount,loan_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+142,loans,LOAN0000103,missing_loan_amount,loan_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+143,loans,LOAN0000141,missing_loan_amount,loan_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+144,loans,LOAN0000163,missing_loan_amount,loan_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+145,loans,LOAN0000190,missing_loan_amount,loan_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+146,loans,LOAN0000273,missing_loan_amount,loan_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+147,loans,LOAN0000282,missing_loan_amount,loan_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+148,loans,LOAN0000490,missing_loan_amount,loan_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+149,loans,LOAN0000543,missing_loan_amount,loan_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+150,loans,LOAN0000546,missing_loan_amount,loan_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+151,loans,LOAN0000566,missing_loan_amount,loan_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+152,loans,LOAN0000582,missing_loan_amount,loan_amount was set to NULL (simulated missing operational data),medium,2026-08-24
+153,loans,LOAN0000092,missing_interest_rate,interest_rate was set to NULL (simulated missing operational data),medium,2026-08-24
+154,loans,LOAN0000156,missing_interest_rate,interest_rate was set to NULL (simulated missing operational data),medium,2026-08-24
+155,loans,LOAN0000190,missing_interest_rate,interest_rate was set to NULL (simulated missing operational data),medium,2026-08-24
+156,loans,LOAN0000252,missing_interest_rate,interest_rate was set to NULL (simulated missing operational data),medium,2026-08-24
+157,loans,LOAN0000362,missing_interest_rate,interest_rate was set to NULL (simulated missing operational data),medium,2026-08-24
+158,loans,LOAN0000428,missing_interest_rate,interest_rate was set to NULL (simulated missing operational data),medium,2026-08-24
+159,loans,LOAN0000441,missing_interest_rate,interest_rate was set to NULL (simulated missing operational data),medium,2026-08-24
+160,loans,LOAN0000458,missing_interest_rate,interest_rate was set to NULL (simulated missing operational data),medium,2026-08-24
+161,loans,LOAN0000460,missing_interest_rate,interest_rate was set to NULL (simulated missing operational data),medium,2026-08-24
+162,loans,LOAN0000479,missing_interest_rate,interest_rate was set to NULL (simulated missing operational data),medium,2026-08-24
+163,loans,LOAN0000511,missing_interest_rate,interest_rate was set to NULL (simulated missing operational data),medium,2026-08-24
+164,loans,LOAN0000535,missing_interest_rate,interest_rate was set to NULL (simulated missing operational data),medium,2026-08-24
+165,payments,PAY0000092,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+166,payments,PAY0000255,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+167,payments,PAY0000294,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+168,payments,PAY0000299,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+169,payments,PAY0000361,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+170,payments,PAY0000405,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+171,payments,PAY0000415,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+172,payments,PAY0000429,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+173,payments,PAY0000628,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+174,payments,PAY0000749,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+175,payments,PAY0000779,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+176,payments,PAY0000787,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+177,payments,PAY0000804,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+178,payments,PAY0000822,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+179,payments,PAY0000928,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+180,payments,PAY0000947,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+181,payments,PAY0000976,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+182,payments,PAY0000993,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+183,payments,PAY0001021,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+184,payments,PAY0001081,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+185,payments,PAY0001086,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+186,payments,PAY0001088,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+187,payments,PAY0001161,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+188,payments,PAY0001227,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+189,payments,PAY0001245,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+190,payments,PAY0001334,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+191,payments,PAY0001403,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+192,payments,PAY0001415,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+193,payments,PAY0001439,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+194,payments,PAY0001455,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+195,payments,PAY0001534,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+196,payments,PAY0001665,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+197,payments,PAY0001700,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+198,payments,PAY0001705,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+199,payments,PAY0001891,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+200,payments,PAY0001920,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+201,payments,PAY0001961,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+202,payments,PAY0001965,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+203,payments,PAY0002020,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+204,payments,PAY0002027,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+205,payments,PAY0002102,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+206,payments,PAY0002159,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+207,payments,PAY0002170,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+208,payments,PAY0002183,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+209,payments,PAY0002216,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+210,payments,PAY0002243,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+211,payments,PAY0002253,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+212,payments,PAY0002258,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+213,payments,PAY0002275,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+214,payments,PAY0002282,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+215,payments,PAY0002409,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+216,payments,PAY0002480,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+217,payments,PAY0002534,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+218,payments,PAY0002535,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+219,payments,PAY0002651,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+220,payments,PAY0002653,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+221,payments,PAY0002691,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+222,payments,PAY0002692,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+223,payments,PAY0002738,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+224,payments,PAY0002752,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+225,payments,PAY0002785,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+226,payments,PAY0002796,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+227,payments,PAY0002835,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+228,payments,PAY0002846,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+229,payments,PAY0002863,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+230,payments,PAY0002966,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+231,payments,PAY0002972,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+232,payments,PAY0003112,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+233,payments,PAY0003187,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+234,payments,PAY0003193,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+235,payments,PAY0003273,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+236,payments,PAY0003275,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+237,payments,PAY0003366,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+238,payments,PAY0003410,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+239,payments,PAY0003514,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+240,payments,PAY0003527,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+241,payments,PAY0003563,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+242,payments,PAY0003570,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+243,payments,PAY0003581,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+244,payments,PAY0003672,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+245,payments,PAY0003675,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+246,payments,PAY0003701,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+247,payments,PAY0003734,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+248,payments,PAY0003739,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+249,payments,PAY0003783,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+250,payments,PAY0003790,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+251,payments,PAY0003937,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+252,payments,PAY0003968,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+253,payments,PAY0004000,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+254,payments,PAY0004034,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+255,payments,PAY0004039,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+256,payments,PAY0004068,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+257,payments,PAY0004087,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+258,payments,PAY0004156,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+259,payments,PAY0004162,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+260,payments,PAY0004183,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+261,payments,PAY0004224,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+262,payments,PAY0004312,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+263,payments,PAY0004405,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+264,payments,PAY0004410,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+265,payments,PAY0004439,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+266,payments,PAY0004602,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+267,payments,PAY0004669,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+268,payments,PAY0004709,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+269,payments,PAY0004847,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+270,payments,PAY0004858,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+271,payments,PAY0005056,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+272,payments,PAY0005110,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+273,payments,PAY0005159,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+274,payments,PAY0005192,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+275,payments,PAY0005332,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+276,payments,PAY0005354,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+277,payments,PAY0005363,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+278,payments,PAY0005488,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+279,payments,PAY0005539,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+280,payments,PAY0005589,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+281,payments,PAY0005640,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+282,payments,PAY0005700,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+283,payments,PAY0005767,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+284,payments,PAY0005769,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+285,payments,PAY0005783,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+286,payments,PAY0005828,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+287,payments,PAY0005957,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+288,payments,PAY0005974,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+289,payments,PAY0005975,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+290,payments,PAY0006038,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+291,payments,PAY0006045,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+292,payments,PAY0006177,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+293,payments,PAY0006193,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+294,payments,PAY0006251,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+295,payments,PAY0006273,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+296,payments,PAY0006328,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+297,payments,PAY0006332,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+298,payments,PAY0006336,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+299,payments,PAY0006398,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+300,payments,PAY0006455,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+301,payments,PAY0006465,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+302,payments,PAY0006556,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+303,payments,PAY0006603,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+304,payments,PAY0006626,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+305,payments,PAY0006645,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+306,payments,PAY0006704,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+307,payments,PAY0006733,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+308,payments,PAY0006824,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+309,payments,PAY0006877,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+310,payments,PAY0006891,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+311,payments,PAY0006937,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+312,payments,PAY0006997,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+313,payments,PAY0007024,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+314,payments,PAY0007056,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+315,payments,PAY0007070,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+316,payments,PAY0007164,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+317,payments,PAY0007167,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+318,payments,PAY0007253,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+319,payments,PAY0007272,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+320,payments,PAY0007323,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+321,payments,PAY0007324,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+322,payments,PAY0007387,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+323,payments,PAY0007479,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+324,payments,PAY0007749,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+325,payments,PAY0007860,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+326,payments,PAY0007926,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+327,payments,PAY0007938,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+328,payments,PAY0008033,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+329,payments,PAY0008094,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+330,payments,PAY0008155,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+331,payments,PAY0008174,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+332,payments,PAY0008295,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+333,payments,PAY0008312,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+334,payments,PAY0008323,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+335,payments,PAY0008333,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+336,payments,PAY0008382,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+337,payments,PAY0008555,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+338,payments,PAY0008593,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+339,payments,PAY0008675,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+340,payments,PAY0008721,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+341,payments,PAY0008743,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+342,payments,PAY0008785,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+343,payments,PAY0008806,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+344,payments,PAY0008869,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+345,payments,PAY0008880,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+346,payments,PAY0008978,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+347,payments,PAY0009033,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+348,payments,PAY0009074,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+349,payments,PAY0009095,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+350,payments,PAY0009103,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+351,payments,PAY0009180,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+352,payments,PAY0009239,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+353,payments,PAY0009254,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+354,payments,PAY0009315,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+355,payments,PAY0009497,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+356,payments,PAY0009530,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+357,payments,PAY0009598,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+358,payments,PAY0009601,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+359,payments,PAY0009678,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+360,payments,PAY0009798,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+361,payments,PAY0009846,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+362,payments,PAY0009850,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+363,payments,PAY0009857,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+364,payments,PAY0009862,missing_payment_date,payment_date was set to NULL (simulated missing operational data),medium,2026-08-24
+365,payments,PAY0000086,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+366,payments,PAY0000108,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+367,payments,PAY0000140,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+368,payments,PAY0000166,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+369,payments,PAY0000185,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+370,payments,PAY0000229,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+371,payments,PAY0000230,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+372,payments,PAY0000246,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+373,payments,PAY0000249,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+374,payments,PAY0000252,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+375,payments,PAY0000265,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+376,payments,PAY0000311,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+377,payments,PAY0000313,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+378,payments,PAY0000336,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+379,payments,PAY0000343,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+380,payments,PAY0000455,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+381,payments,PAY0000501,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+382,payments,PAY0000525,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+383,payments,PAY0000642,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+384,payments,PAY0000646,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+385,payments,PAY0000672,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+386,payments,PAY0000709,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+387,payments,PAY0000768,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+388,payments,PAY0000772,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+389,payments,PAY0000823,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+390,payments,PAY0000826,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+391,payments,PAY0000857,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+392,payments,PAY0000971,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+393,payments,PAY0000984,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+394,payments,PAY0000987,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+395,payments,PAY0000989,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+396,payments,PAY0001027,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+397,payments,PAY0001043,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+398,payments,PAY0001089,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+399,payments,PAY0001130,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+400,payments,PAY0001195,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+401,payments,PAY0001217,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+402,payments,PAY0001278,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+403,payments,PAY0001285,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+404,payments,PAY0001312,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+405,payments,PAY0001339,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+406,payments,PAY0001422,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+407,payments,PAY0001445,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+408,payments,PAY0001478,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+409,payments,PAY0001480,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+410,payments,PAY0001516,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+411,payments,PAY0001593,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+412,payments,PAY0001646,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+413,payments,PAY0001718,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+414,payments,PAY0001842,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+415,payments,PAY0001867,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+416,payments,PAY0001951,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+417,payments,PAY0001973,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+418,payments,PAY0002110,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+419,payments,PAY0002125,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+420,payments,PAY0002128,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+421,payments,PAY0002180,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+422,payments,PAY0002181,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+423,payments,PAY0002202,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+424,payments,PAY0002277,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+425,payments,PAY0002437,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+426,payments,PAY0002594,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+427,payments,PAY0002755,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+428,payments,PAY0002786,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+429,payments,PAY0002816,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+430,payments,PAY0002828,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+431,payments,PAY0002918,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+432,payments,PAY0003040,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+433,payments,PAY0003090,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+434,payments,PAY0003183,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+435,payments,PAY0003199,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+436,payments,PAY0003208,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+437,payments,PAY0003235,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+438,payments,PAY0003286,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+439,payments,PAY0003326,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+440,payments,PAY0003340,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+441,payments,PAY0003440,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+442,payments,PAY0003468,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+443,payments,PAY0003479,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+444,payments,PAY0003522,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+445,payments,PAY0003528,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+446,payments,PAY0003557,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+447,payments,PAY0003562,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+448,payments,PAY0003630,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+449,payments,PAY0003672,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+450,payments,PAY0003701,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+451,payments,PAY0003862,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+452,payments,PAY0003973,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+453,payments,PAY0003976,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+454,payments,PAY0004055,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+455,payments,PAY0004059,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+456,payments,PAY0004126,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+457,payments,PAY0004379,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+458,payments,PAY0004387,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+459,payments,PAY0004456,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+460,payments,PAY0004490,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+461,payments,PAY0004530,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+462,payments,PAY0004585,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+463,payments,PAY0004628,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+464,payments,PAY0004637,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+465,payments,PAY0004720,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+466,payments,PAY0004882,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+467,payments,PAY0004956,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+468,payments,PAY0005054,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+469,payments,PAY0005201,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+470,payments,PAY0005242,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+471,payments,PAY0005298,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+472,payments,PAY0005306,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+473,payments,PAY0005347,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+474,payments,PAY0005366,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+475,payments,PAY0005392,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+476,payments,PAY0005435,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+477,payments,PAY0005449,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+478,payments,PAY0005463,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+479,payments,PAY0005473,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+480,payments,PAY0005481,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+481,payments,PAY0005496,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+482,payments,PAY0005517,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+483,payments,PAY0005555,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+484,payments,PAY0005560,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+485,payments,PAY0005605,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+486,payments,PAY0005614,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+487,payments,PAY0005676,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+488,payments,PAY0005782,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+489,payments,PAY0005826,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+490,payments,PAY0005906,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+491,payments,PAY0005959,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+492,payments,PAY0005993,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+493,payments,PAY0006063,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+494,payments,PAY0006140,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+495,payments,PAY0006154,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+496,payments,PAY0006155,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+497,payments,PAY0006161,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+498,payments,PAY0006183,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+499,payments,PAY0006217,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+500,payments,PAY0006229,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+501,payments,PAY0006230,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+502,payments,PAY0006328,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+503,payments,PAY0006422,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+504,payments,PAY0006479,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+505,payments,PAY0006480,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+506,payments,PAY0006540,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+507,payments,PAY0006572,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+508,payments,PAY0006604,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+509,payments,PAY0006622,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+510,payments,PAY0006781,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+511,payments,PAY0006818,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+512,payments,PAY0006925,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+513,payments,PAY0007001,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+514,payments,PAY0007037,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+515,payments,PAY0007070,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+516,payments,PAY0007077,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+517,payments,PAY0007101,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+518,payments,PAY0007121,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+519,payments,PAY0007148,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+520,payments,PAY0007201,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+521,payments,PAY0007229,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+522,payments,PAY0007249,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+523,payments,PAY0007268,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+524,payments,PAY0007317,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+525,payments,PAY0007400,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+526,payments,PAY0007412,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+527,payments,PAY0007518,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+528,payments,PAY0007521,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+529,payments,PAY0007528,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+530,payments,PAY0007636,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+531,payments,PAY0007637,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+532,payments,PAY0007697,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+533,payments,PAY0007795,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+534,payments,PAY0007938,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+535,payments,PAY0008023,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+536,payments,PAY0008067,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+537,payments,PAY0008090,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+538,payments,PAY0008113,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+539,payments,PAY0008153,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+540,payments,PAY0008158,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+541,payments,PAY0008212,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+542,payments,PAY0008302,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+543,payments,PAY0008413,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+544,payments,PAY0008459,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+545,payments,PAY0008547,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+546,payments,PAY0008569,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+547,payments,PAY0008714,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+548,payments,PAY0008717,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+549,payments,PAY0008970,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+550,payments,PAY0009315,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+551,payments,PAY0009325,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+552,payments,PAY0009386,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+553,payments,PAY0009519,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+554,payments,PAY0009602,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+555,payments,PAY0009606,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+556,payments,PAY0009644,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+557,payments,PAY0009692,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+558,payments,PAY0009729,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+559,payments,PAY0009750,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+560,payments,PAY0009758,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+561,payments,PAY0009790,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+562,payments,PAY0009825,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+563,payments,PAY0009868,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+564,payments,PAY0009966,missing_amount_paid,amount_paid was set to NULL (simulated missing operational data),medium,2026-08-24
+565,credit_history,CRHIST0000004,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+566,credit_history,CRHIST0000031,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+567,credit_history,CRHIST0000038,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+568,credit_history,CRHIST0000058,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+569,credit_history,CRHIST0000062,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+570,credit_history,CRHIST0000111,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+571,credit_history,CRHIST0000115,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+572,credit_history,CRHIST0000117,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+573,credit_history,CRHIST0000176,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+574,credit_history,CRHIST0000199,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+575,credit_history,CRHIST0000200,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+576,credit_history,CRHIST0000240,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+577,credit_history,CRHIST0000284,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+578,credit_history,CRHIST0000423,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+579,credit_history,CRHIST0000524,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+580,credit_history,CRHIST0000638,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+581,credit_history,CRHIST0000696,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+582,credit_history,CRHIST0000844,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+583,credit_history,CRHIST0000858,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+584,credit_history,CRHIST0000870,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+585,credit_history,CRHIST0000927,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+586,credit_history,CRHIST0000985,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+587,credit_history,CRHIST0001008,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+588,credit_history,CRHIST0001231,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+589,credit_history,CRHIST0001253,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+590,credit_history,CRHIST0001286,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+591,credit_history,CRHIST0001426,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+592,credit_history,CRHIST0001437,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+593,credit_history,CRHIST0001586,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+594,credit_history,CRHIST0001590,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+595,credit_history,CRHIST0001651,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+596,credit_history,CRHIST0001678,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+597,credit_history,CRHIST0001694,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+598,credit_history,CRHIST0001781,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+599,credit_history,CRHIST0001785,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+600,credit_history,CRHIST0001947,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+601,credit_history,CRHIST0001978,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+602,credit_history,CRHIST0002047,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+603,credit_history,CRHIST0002111,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+604,credit_history,CRHIST0002189,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+605,credit_history,CRHIST0002214,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+606,credit_history,CRHIST0002228,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+607,credit_history,CRHIST0002230,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+608,credit_history,CRHIST0002362,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+609,credit_history,CRHIST0002364,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+610,credit_history,CRHIST0002409,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+611,credit_history,CRHIST0002467,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+612,credit_history,CRHIST0002493,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+613,credit_history,CRHIST0002510,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+614,credit_history,CRHIST0002559,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+615,credit_history,CRHIST0002629,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+616,credit_history,CRHIST0002685,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+617,credit_history,CRHIST0002716,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+618,credit_history,CRHIST0002747,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+619,credit_history,CRHIST0002758,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+620,credit_history,CRHIST0002825,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+621,credit_history,CRHIST0002894,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+622,credit_history,CRHIST0002899,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+623,credit_history,CRHIST0002908,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+624,credit_history,CRHIST0002983,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+625,credit_history,CRHIST0002993,missing_credit_score,credit_score was set to NULL (simulated missing operational data),medium,2026-08-24
+626,credit_history,CRHIST0000103,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+627,credit_history,CRHIST0000136,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+628,credit_history,CRHIST0000322,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+629,credit_history,CRHIST0000323,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+630,credit_history,CRHIST0000488,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+631,credit_history,CRHIST0000500,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+632,credit_history,CRHIST0000564,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+633,credit_history,CRHIST0000570,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+634,credit_history,CRHIST0000582,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+635,credit_history,CRHIST0000630,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+636,credit_history,CRHIST0000735,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+637,credit_history,CRHIST0000740,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+638,credit_history,CRHIST0000782,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+639,credit_history,CRHIST0000821,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+640,credit_history,CRHIST0000877,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+641,credit_history,CRHIST0000977,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+642,credit_history,CRHIST0001080,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+643,credit_history,CRHIST0001138,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+644,credit_history,CRHIST0001158,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+645,credit_history,CRHIST0001242,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+646,credit_history,CRHIST0001291,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+647,credit_history,CRHIST0001330,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+648,credit_history,CRHIST0001334,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+649,credit_history,CRHIST0001343,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+650,credit_history,CRHIST0001359,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+651,credit_history,CRHIST0001416,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+652,credit_history,CRHIST0001542,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+653,credit_history,CRHIST0001545,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+654,credit_history,CRHIST0001668,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+655,credit_history,CRHIST0001672,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+656,credit_history,CRHIST0001763,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+657,credit_history,CRHIST0001772,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+658,credit_history,CRHIST0001838,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+659,credit_history,CRHIST0001859,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+660,credit_history,CRHIST0001882,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+661,credit_history,CRHIST0002003,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+662,credit_history,CRHIST0002032,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+663,credit_history,CRHIST0002042,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+664,credit_history,CRHIST0002172,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+665,credit_history,CRHIST0002173,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+666,credit_history,CRHIST0002201,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+667,credit_history,CRHIST0002202,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+668,credit_history,CRHIST0002252,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+669,credit_history,CRHIST0002282,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+670,credit_history,CRHIST0002336,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+671,credit_history,CRHIST0002444,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+672,credit_history,CRHIST0002445,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+673,credit_history,CRHIST0002535,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+674,credit_history,CRHIST0002641,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+675,credit_history,CRHIST0002703,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+676,credit_history,CRHIST0002709,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+677,credit_history,CRHIST0002748,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+678,credit_history,CRHIST0002758,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+679,credit_history,CRHIST0002764,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+680,credit_history,CRHIST0002804,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+681,credit_history,CRHIST0002806,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+682,credit_history,CRHIST0002925,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+683,credit_history,CRHIST0002929,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+684,credit_history,CRHIST0002982,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+685,credit_history,CRHIST0002983,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+686,credit_history,CRHIST0003047,missing_total_outstanding_debt,total_outstanding_debt was set to NULL (simulated missing operational data),medium,2026-08-24
+687,customers,CUST0000009,duplicate_record,Row with customer_id=CUST0000009 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+688,customers,CUST0000112,duplicate_record,Row with customer_id=CUST0000112 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+689,customers,CUST0000113,duplicate_record,Row with customer_id=CUST0000113 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+690,customers,CUST0000259,duplicate_record,Row with customer_id=CUST0000259 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+691,customers,CUST0000325,duplicate_record,Row with customer_id=CUST0000325 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+692,customers,CUST0000723,duplicate_record,Row with customer_id=CUST0000723 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+693,customers,CUST0000760,duplicate_record,Row with customer_id=CUST0000760 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+694,customers,CUST0000885,duplicate_record,Row with customer_id=CUST0000885 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+695,customers,CUST0000896,duplicate_record,Row with customer_id=CUST0000896 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+696,customers,CUST0000996,duplicate_record,Row with customer_id=CUST0000996 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+697,applications,APP0000133,duplicate_record,Row with application_id=APP0000133 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+698,applications,APP0000280,duplicate_record,Row with application_id=APP0000280 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+699,applications,APP0000300,duplicate_record,Row with application_id=APP0000300 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+700,applications,APP0000393,duplicate_record,Row with application_id=APP0000393 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+701,applications,APP0000402,duplicate_record,Row with application_id=APP0000402 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+702,applications,APP0000458,duplicate_record,Row with application_id=APP0000458 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+703,applications,APP0000607,duplicate_record,Row with application_id=APP0000607 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+704,applications,APP0000929,duplicate_record,Row with application_id=APP0000929 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+705,applications,APP0001039,duplicate_record,Row with application_id=APP0001039 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+706,applications,APP0001154,duplicate_record,Row with application_id=APP0001154 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+707,applications,APP0001170,duplicate_record,Row with application_id=APP0001170 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+708,applications,APP0001212,duplicate_record,Row with application_id=APP0001212 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+709,applications,APP0001215,duplicate_record,Row with application_id=APP0001215 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+710,applications,APP0001350,duplicate_record,Row with application_id=APP0001350 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+711,applications,APP0001423,duplicate_record,Row with application_id=APP0001423 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+712,payments,PAY0000061,duplicate_record,Row with payment_id=PAY0000061 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+713,payments,PAY0000065,duplicate_record,Row with payment_id=PAY0000065 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+714,payments,PAY0000262,duplicate_record,Row with payment_id=PAY0000262 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+715,payments,PAY0000307,duplicate_record,Row with payment_id=PAY0000307 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+716,payments,PAY0000676,duplicate_record,Row with payment_id=PAY0000676 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+717,payments,PAY0000791,duplicate_record,Row with payment_id=PAY0000791 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+718,payments,PAY0000812,duplicate_record,Row with payment_id=PAY0000812 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+719,payments,PAY0000835,duplicate_record,Row with payment_id=PAY0000835 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+720,payments,PAY0000850,duplicate_record,Row with payment_id=PAY0000850 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+721,payments,PAY0000897,duplicate_record,Row with payment_id=PAY0000897 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+722,payments,PAY0001130,duplicate_record,Row with payment_id=PAY0001130 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+723,payments,PAY0001156,duplicate_record,Row with payment_id=PAY0001156 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+724,payments,PAY0001186,duplicate_record,Row with payment_id=PAY0001186 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+725,payments,PAY0001213,duplicate_record,Row with payment_id=PAY0001213 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+726,payments,PAY0001432,duplicate_record,Row with payment_id=PAY0001432 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+727,payments,PAY0001477,duplicate_record,Row with payment_id=PAY0001477 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+728,payments,PAY0001498,duplicate_record,Row with payment_id=PAY0001498 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+729,payments,PAY0001525,duplicate_record,Row with payment_id=PAY0001525 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+730,payments,PAY0001695,duplicate_record,Row with payment_id=PAY0001695 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+731,payments,PAY0001773,duplicate_record,Row with payment_id=PAY0001773 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+732,payments,PAY0001922,duplicate_record,Row with payment_id=PAY0001922 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+733,payments,PAY0001949,duplicate_record,Row with payment_id=PAY0001949 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+734,payments,PAY0001987,duplicate_record,Row with payment_id=PAY0001987 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+735,payments,PAY0002000,duplicate_record,Row with payment_id=PAY0002000 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+736,payments,PAY0002145,duplicate_record,Row with payment_id=PAY0002145 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+737,payments,PAY0002362,duplicate_record,Row with payment_id=PAY0002362 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+738,payments,PAY0002372,duplicate_record,Row with payment_id=PAY0002372 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+739,payments,PAY0002378,duplicate_record,Row with payment_id=PAY0002378 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+740,payments,PAY0002445,duplicate_record,Row with payment_id=PAY0002445 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+741,payments,PAY0002668,duplicate_record,Row with payment_id=PAY0002668 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+742,payments,PAY0002736,duplicate_record,Row with payment_id=PAY0002736 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+743,payments,PAY0002809,duplicate_record,Row with payment_id=PAY0002809 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+744,payments,PAY0002825,duplicate_record,Row with payment_id=PAY0002825 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+745,payments,PAY0002896,duplicate_record,Row with payment_id=PAY0002896 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+746,payments,PAY0003044,duplicate_record,Row with payment_id=PAY0003044 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+747,payments,PAY0003282,duplicate_record,Row with payment_id=PAY0003282 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+748,payments,PAY0003305,duplicate_record,Row with payment_id=PAY0003305 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+749,payments,PAY0003422,duplicate_record,Row with payment_id=PAY0003422 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+750,payments,PAY0003434,duplicate_record,Row with payment_id=PAY0003434 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+751,payments,PAY0003450,duplicate_record,Row with payment_id=PAY0003450 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+752,payments,PAY0003491,duplicate_record,Row with payment_id=PAY0003491 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+753,payments,PAY0003805,duplicate_record,Row with payment_id=PAY0003805 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+754,payments,PAY0003943,duplicate_record,Row with payment_id=PAY0003943 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+755,payments,PAY0003957,duplicate_record,Row with payment_id=PAY0003957 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+756,payments,PAY0004029,duplicate_record,Row with payment_id=PAY0004029 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+757,payments,PAY0004091,duplicate_record,Row with payment_id=PAY0004091 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+758,payments,PAY0004135,duplicate_record,Row with payment_id=PAY0004135 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+759,payments,PAY0004385,duplicate_record,Row with payment_id=PAY0004385 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+760,payments,PAY0004885,duplicate_record,Row with payment_id=PAY0004885 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+761,payments,PAY0004912,duplicate_record,Row with payment_id=PAY0004912 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+762,payments,PAY0004913,duplicate_record,Row with payment_id=PAY0004913 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+763,payments,PAY0005004,duplicate_record,Row with payment_id=PAY0005004 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+764,payments,PAY0005088,duplicate_record,Row with payment_id=PAY0005088 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+765,payments,PAY0005232,duplicate_record,Row with payment_id=PAY0005232 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+766,payments,PAY0005405,duplicate_record,Row with payment_id=PAY0005405 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+767,payments,PAY0005418,duplicate_record,Row with payment_id=PAY0005418 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+768,payments,PAY0005546,duplicate_record,Row with payment_id=PAY0005546 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+769,payments,PAY0005615,duplicate_record,Row with payment_id=PAY0005615 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+770,payments,PAY0005814,duplicate_record,Row with payment_id=PAY0005814 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+771,payments,PAY0005869,duplicate_record,Row with payment_id=PAY0005869 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+772,payments,PAY0005922,duplicate_record,Row with payment_id=PAY0005922 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+773,payments,PAY0005951,duplicate_record,Row with payment_id=PAY0005951 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+774,payments,PAY0006037,duplicate_record,Row with payment_id=PAY0006037 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+775,payments,PAY0006060,duplicate_record,Row with payment_id=PAY0006060 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+776,payments,PAY0006083,duplicate_record,Row with payment_id=PAY0006083 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+777,payments,PAY0006151,duplicate_record,Row with payment_id=PAY0006151 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+778,payments,PAY0006180,duplicate_record,Row with payment_id=PAY0006180 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+779,payments,PAY0006332,duplicate_record,Row with payment_id=PAY0006332 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+780,payments,PAY0006355,duplicate_record,Row with payment_id=PAY0006355 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+781,payments,PAY0006409,duplicate_record,Row with payment_id=PAY0006409 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+782,payments,PAY0006506,duplicate_record,Row with payment_id=PAY0006506 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+783,payments,PAY0006571,duplicate_record,Row with payment_id=PAY0006571 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+784,payments,PAY0006644,duplicate_record,Row with payment_id=PAY0006644 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+785,payments,PAY0006672,duplicate_record,Row with payment_id=PAY0006672 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+786,payments,PAY0006709,duplicate_record,Row with payment_id=PAY0006709 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+787,payments,PAY0006802,duplicate_record,Row with payment_id=PAY0006802 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+788,payments,PAY0006914,duplicate_record,Row with payment_id=PAY0006914 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+789,payments,PAY0007085,duplicate_record,Row with payment_id=PAY0007085 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+790,payments,PAY0007374,duplicate_record,Row with payment_id=PAY0007374 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+791,payments,PAY0007393,duplicate_record,Row with payment_id=PAY0007393 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+792,payments,PAY0007837,duplicate_record,Row with payment_id=PAY0007837 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+793,payments,PAY0008249,duplicate_record,Row with payment_id=PAY0008249 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+794,payments,PAY0008341,duplicate_record,Row with payment_id=PAY0008341 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+795,payments,PAY0008362,duplicate_record,Row with payment_id=PAY0008362 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+796,payments,PAY0008451,duplicate_record,Row with payment_id=PAY0008451 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+797,payments,PAY0008570,duplicate_record,Row with payment_id=PAY0008570 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+798,payments,PAY0008649,duplicate_record,Row with payment_id=PAY0008649 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+799,payments,PAY0008732,duplicate_record,Row with payment_id=PAY0008732 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+800,payments,PAY0008836,duplicate_record,Row with payment_id=PAY0008836 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+801,payments,PAY0008901,duplicate_record,Row with payment_id=PAY0008901 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+802,payments,PAY0008943,duplicate_record,Row with payment_id=PAY0008943 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+803,payments,PAY0009123,duplicate_record,Row with payment_id=PAY0009123 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+804,payments,PAY0009231,duplicate_record,Row with payment_id=PAY0009231 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+805,payments,PAY0009420,duplicate_record,Row with payment_id=PAY0009420 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+806,payments,PAY0009429,duplicate_record,Row with payment_id=PAY0009429 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+807,payments,PAY0009482,duplicate_record,Row with payment_id=PAY0009482 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+808,payments,PAY0009502,duplicate_record,Row with payment_id=PAY0009502 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+809,payments,PAY0009758,duplicate_record,Row with payment_id=PAY0009758 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+810,payments,PAY0009850,duplicate_record,Row with payment_id=PAY0009850 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+811,payments,PAY0009851,duplicate_record,Row with payment_id=PAY0009851 was duplicated verbatim (simulated double-submit / re-sync),low,2026-08-24
+812,customers,CUST0000245,negative_annual_income,annual_income set to negative value (-40730.85) -- physically invalid,high,2026-08-24
+813,customers,CUST0000314,negative_annual_income,annual_income set to negative value (-91644.18) -- physically invalid,high,2026-08-24
+814,customers,CUST0000353,negative_annual_income,annual_income set to negative value (-134305.7) -- physically invalid,high,2026-08-24
+815,customers,CUST0000397,negative_annual_income,annual_income set to negative value (-56527.7) -- physically invalid,high,2026-08-24
+816,customers,CUST0000494,negative_annual_income,annual_income set to negative value (-92261.72) -- physically invalid,high,2026-08-24
+817,customers,CUST0000687,negative_annual_income,annual_income set to negative value (-40383.02) -- physically invalid,high,2026-08-24
+818,customers,CUST0000786,negative_annual_income,annual_income set to negative value (-62373.97) -- physically invalid,high,2026-08-24
+819,customers,CUST0000883,negative_annual_income,annual_income set to negative value (-22481.6) -- physically invalid,high,2026-08-24
+820,customers,CUST0000992,negative_annual_income,annual_income set to negative value (-53407.56) -- physically invalid,high,2026-08-24
+821,customers,CUST0000723,negative_annual_income,annual_income set to negative value (-38911.45) -- physically invalid,high,2026-08-24
+822,customers,CUST0000116,impossible_age,date_of_birth is set in the future,high,2026-08-24
+823,customers,CUST0000199,impossible_age,date_of_birth is set in the future,high,2026-08-24
+824,customers,CUST0000205,impossible_age,date_of_birth is set in the future,high,2026-08-24
+825,customers,CUST0000318,impossible_age,date_of_birth is set in the future,high,2026-08-24
+826,customers,CUST0000359,impossible_age,date_of_birth is set in the future,high,2026-08-24
+827,customers,CUST0000613,impossible_age,date_of_birth is set in the future,high,2026-08-24
+828,customers,CUST0000636,impossible_age,date_of_birth implies an age over 120 years,high,2026-08-24
+829,customers,CUST0000778,impossible_age,date_of_birth implies an age over 120 years,high,2026-08-24
+830,customers,CUST0000814,impossible_age,date_of_birth is set in the future,high,2026-08-24
+831,customers,CUST0000873,impossible_age,date_of_birth is set in the future,high,2026-08-24
+832,loans,LOAN0000068,negative_loan_amount,loan_amount set to negative value (-31410.49) -- physically invalid,high,2026-08-24
+833,loans,LOAN0000078,negative_loan_amount,loan_amount set to negative value (-24716.19) -- physically invalid,high,2026-08-24
+834,loans,LOAN0000186,negative_loan_amount,loan_amount set to negative value (-15352.12) -- physically invalid,high,2026-08-24
+835,loans,LOAN0000239,negative_loan_amount,loan_amount set to negative value (-8003.53) -- physically invalid,high,2026-08-24
+836,loans,LOAN0000464,negative_loan_amount,loan_amount set to negative value (-21608.25) -- physically invalid,high,2026-08-24
+837,loans,LOAN0000536,negative_loan_amount,loan_amount set to negative value (-10375.36) -- physically invalid,high,2026-08-24
+838,loans,LOAN0000152,negative_interest_rate,interest_rate set to negative value (-5.91) -- physically invalid,high,2026-08-24
+839,loans,LOAN0000285,negative_interest_rate,interest_rate set to negative value (-8.48) -- physically invalid,high,2026-08-24
+840,loans,LOAN0000393,negative_interest_rate,interest_rate set to negative value (-9.52) -- physically invalid,high,2026-08-24
+841,loans,LOAN0000450,negative_interest_rate,interest_rate set to negative value (-6.3) -- physically invalid,high,2026-08-24
+842,loans,LOAN0000459,negative_interest_rate,interest_rate set to negative value (-11.34) -- physically invalid,high,2026-08-24
+843,loans,LOAN0000588,negative_interest_rate,interest_rate set to negative value (-6.59) -- physically invalid,high,2026-08-24
+844,payments,PAY0000299,negative_amount_paid,amount_paid set to negative value (-415.03) -- physically invalid,high,2026-08-24
+845,payments,PAY0000318,negative_amount_paid,amount_paid set to negative value (-263.49) -- physically invalid,high,2026-08-24
+846,payments,PAY0000403,negative_amount_paid,amount_paid set to negative value (-41.64) -- physically invalid,high,2026-08-24
+847,payments,PAY0000456,negative_amount_paid,amount_paid set to negative value (-2212.0) -- physically invalid,high,2026-08-24
+848,payments,PAY0000537,negative_amount_paid,amount_paid set to negative value (-654.28) -- physically invalid,high,2026-08-24
+849,payments,PAY0000897,negative_amount_paid,amount_paid set to negative value (-309.46) -- physically invalid,high,2026-08-24
+850,payments,PAY0000950,negative_amount_paid,amount_paid set to negative value (-14.34) -- physically invalid,high,2026-08-24
+851,payments,PAY0000956,negative_amount_paid,amount_paid set to negative value (-486.64) -- physically invalid,high,2026-08-24
+852,payments,PAY0001013,negative_amount_paid,amount_paid set to negative value (-233.3595235754906) -- physically invalid,high,2026-08-24
+853,payments,PAY0001177,negative_amount_paid,amount_paid set to negative value (-974.84) -- physically invalid,high,2026-08-24
+854,payments,PAY0001223,negative_amount_paid,amount_paid set to negative value (-501.6238034080986) -- physically invalid,high,2026-08-24
+855,payments,PAY0001256,negative_amount_paid,amount_paid set to negative value (-389.2697199859417) -- physically invalid,high,2026-08-24
+856,payments,PAY0001261,negative_amount_paid,amount_paid set to negative value (-466.5546519011576) -- physically invalid,high,2026-08-24
+857,payments,PAY0001262,negative_amount_paid,amount_paid set to negative value (-78.37) -- physically invalid,high,2026-08-24
+858,payments,PAY0001320,negative_amount_paid,amount_paid set to negative value (-349.2) -- physically invalid,high,2026-08-24
+859,payments,PAY0001343,negative_amount_paid,amount_paid set to negative value (-2150.27) -- physically invalid,high,2026-08-24
+860,payments,PAY0001351,negative_amount_paid,amount_paid set to negative value (-924.47) -- physically invalid,high,2026-08-24
+861,payments,PAY0001354,negative_amount_paid,amount_paid set to negative value (-325.95) -- physically invalid,high,2026-08-24
+862,payments,PAY0001466,negative_amount_paid,amount_paid set to negative value (-709.8) -- physically invalid,high,2026-08-24
+863,payments,PAY0001474,negative_amount_paid,amount_paid set to negative value (-935.64) -- physically invalid,high,2026-08-24
+864,payments,PAY0001553,negative_amount_paid,amount_paid set to negative value (-201.21) -- physically invalid,high,2026-08-24
+865,payments,PAY0001588,negative_amount_paid,amount_paid set to negative value (-1316.93) -- physically invalid,high,2026-08-24
+866,payments,PAY0001661,negative_amount_paid,amount_paid set to negative value (-271.38) -- physically invalid,high,2026-08-24
+867,payments,PAY0001746,negative_amount_paid,amount_paid set to negative value (-244.53) -- physically invalid,high,2026-08-24
+868,payments,PAY0001891,negative_amount_paid,amount_paid set to negative value (-660.43) -- physically invalid,high,2026-08-24
+869,payments,PAY0001908,negative_amount_paid,amount_paid set to negative value (-34.17) -- physically invalid,high,2026-08-24
+870,payments,PAY0001948,negative_amount_paid,amount_paid set to negative value (-605.15) -- physically invalid,high,2026-08-24
+871,payments,PAY0002079,negative_amount_paid,amount_paid set to negative value (-1906.25) -- physically invalid,high,2026-08-24
+872,payments,PAY0002084,negative_amount_paid,amount_paid set to negative value (-611.86) -- physically invalid,high,2026-08-24
+873,payments,PAY0002178,negative_amount_paid,amount_paid set to negative value (-1665.78) -- physically invalid,high,2026-08-24
+874,payments,PAY0002216,negative_amount_paid,amount_paid set to negative value (-155.17) -- physically invalid,high,2026-08-24
+875,payments,PAY0002301,negative_amount_paid,amount_paid set to negative value (-206.47) -- physically invalid,high,2026-08-24
+876,payments,PAY0002487,negative_amount_paid,amount_paid set to negative value (-979.05) -- physically invalid,high,2026-08-24
+877,payments,PAY0002516,negative_amount_paid,amount_paid set to negative value (-34.75) -- physically invalid,high,2026-08-24
+878,payments,PAY0002532,negative_amount_paid,amount_paid set to negative value (-1425.12) -- physically invalid,high,2026-08-24
+879,payments,PAY0002571,negative_amount_paid,amount_paid set to negative value (-549.1753194138664) -- physically invalid,high,2026-08-24
+880,payments,PAY0002743,negative_amount_paid,amount_paid set to negative value (-103.03) -- physically invalid,high,2026-08-24
+881,payments,PAY0002984,negative_amount_paid,amount_paid set to negative value (-168.67) -- physically invalid,high,2026-08-24
+882,payments,PAY0003181,negative_amount_paid,amount_paid set to negative value (-588.68) -- physically invalid,high,2026-08-24
+883,payments,PAY0003224,negative_amount_paid,amount_paid set to negative value (-782.9320523407058) -- physically invalid,high,2026-08-24
+884,payments,PAY0003352,negative_amount_paid,amount_paid set to negative value (-1906.25) -- physically invalid,high,2026-08-24
+885,payments,PAY0003508,negative_amount_paid,amount_paid set to negative value (-1425.12) -- physically invalid,high,2026-08-24
+886,payments,PAY0003660,negative_amount_paid,amount_paid set to negative value (-1276.54) -- physically invalid,high,2026-08-24
+887,payments,PAY0003826,negative_amount_paid,amount_paid set to negative value (-654.28) -- physically invalid,high,2026-08-24
+888,payments,PAY0004090,negative_amount_paid,amount_paid set to negative value (-225.67) -- physically invalid,high,2026-08-24
+889,payments,PAY0004314,negative_amount_paid,amount_paid set to negative value (-145.27) -- physically invalid,high,2026-08-24
+890,payments,PAY0004359,negative_amount_paid,amount_paid set to negative value (-809.24) -- physically invalid,high,2026-08-24
+891,payments,PAY0004375,negative_amount_paid,amount_paid set to negative value (-273.13) -- physically invalid,high,2026-08-24
+892,payments,PAY0004645,negative_amount_paid,amount_paid set to negative value (-359.5414239190939) -- physically invalid,high,2026-08-24
+893,payments,PAY0004824,negative_amount_paid,amount_paid set to negative value (-214.19) -- physically invalid,high,2026-08-24
+894,payments,PAY0005276,negative_amount_paid,amount_paid set to negative value (-168.67) -- physically invalid,high,2026-08-24
+895,payments,PAY0005344,negative_amount_paid,amount_paid set to negative value (-390.97) -- physically invalid,high,2026-08-24
+896,payments,PAY0005350,negative_amount_paid,amount_paid set to negative value (-190.79) -- physically invalid,high,2026-08-24
+897,payments,PAY0005351,negative_amount_paid,amount_paid set to negative value (-649.64) -- physically invalid,high,2026-08-24
+898,payments,PAY0005377,negative_amount_paid,amount_paid set to negative value (-1002.33) -- physically invalid,high,2026-08-24
+899,payments,PAY0005455,negative_amount_paid,amount_paid set to negative value (-199.31) -- physically invalid,high,2026-08-24
+900,payments,PAY0005620,negative_amount_paid,amount_paid set to negative value (-500.03) -- physically invalid,high,2026-08-24
+901,payments,PAY0005663,negative_amount_paid,amount_paid set to negative value (-857.1) -- physically invalid,high,2026-08-24
+902,payments,PAY0005680,negative_amount_paid,amount_paid set to negative value (-382.05) -- physically invalid,high,2026-08-24
+903,payments,PAY0005759,negative_amount_paid,amount_paid set to negative value (-160.1) -- physically invalid,high,2026-08-24
+904,payments,PAY0005845,negative_amount_paid,amount_paid set to negative value (-974.84) -- physically invalid,high,2026-08-24
+905,payments,PAY0005919,negative_amount_paid,amount_paid set to negative value (-305.84) -- physically invalid,high,2026-08-24
+906,payments,PAY0005964,negative_amount_paid,amount_paid set to negative value (-1339.51) -- physically invalid,high,2026-08-24
+907,payments,PAY0006100,negative_amount_paid,amount_paid set to negative value (-349.88) -- physically invalid,high,2026-08-24
+908,payments,PAY0006155,negative_amount_paid,amount_paid set to negative value (-967.2926145938999) -- physically invalid,high,2026-08-24
+909,payments,PAY0006215,negative_amount_paid,amount_paid set to negative value (-566.23) -- physically invalid,high,2026-08-24
+910,payments,PAY0006264,negative_amount_paid,amount_paid set to negative value (-695.767451409363) -- physically invalid,high,2026-08-24
+911,payments,PAY0006508,negative_amount_paid,amount_paid set to negative value (-638.67) -- physically invalid,high,2026-08-24
+912,payments,PAY0006661,negative_amount_paid,amount_paid set to negative value (-640.87) -- physically invalid,high,2026-08-24
+913,payments,PAY0006667,negative_amount_paid,amount_paid set to negative value (-194.46) -- physically invalid,high,2026-08-24
+914,payments,PAY0006860,negative_amount_paid,amount_paid set to negative value (-1081.84) -- physically invalid,high,2026-08-24
+915,payments,PAY0007304,negative_amount_paid,amount_paid set to negative value (-25.35) -- physically invalid,high,2026-08-24
+916,payments,PAY0007326,negative_amount_paid,amount_paid set to negative value (-117.02274993705775) -- physically invalid,high,2026-08-24
+917,payments,PAY0007609,negative_amount_paid,amount_paid set to negative value (-158.38) -- physically invalid,high,2026-08-24
+918,payments,PAY0007648,negative_amount_paid,amount_paid set to negative value (-358.56) -- physically invalid,high,2026-08-24
+919,payments,PAY0007682,negative_amount_paid,amount_paid set to negative value (-495.54) -- physically invalid,high,2026-08-24
+920,payments,PAY0007764,negative_amount_paid,amount_paid set to negative value (-203.52) -- physically invalid,high,2026-08-24
+921,payments,PAY0007853,negative_amount_paid,amount_paid set to negative value (-869.0545435602605) -- physically invalid,high,2026-08-24
+922,payments,PAY0007947,negative_amount_paid,amount_paid set to negative value (-150.55) -- physically invalid,high,2026-08-24
+923,payments,PAY0008142,negative_amount_paid,amount_paid set to negative value (-778.37) -- physically invalid,high,2026-08-24
+924,payments,PAY0008162,negative_amount_paid,amount_paid set to negative value (-377.89) -- physically invalid,high,2026-08-24
+925,payments,PAY0008244,negative_amount_paid,amount_paid set to negative value (-1339.51) -- physically invalid,high,2026-08-24
+926,payments,PAY0008318,negative_amount_paid,amount_paid set to negative value (-393.56) -- physically invalid,high,2026-08-24
+927,payments,PAY0008489,negative_amount_paid,amount_paid set to negative value (-1284.91) -- physically invalid,high,2026-08-24
+928,payments,PAY0008639,negative_amount_paid,amount_paid set to negative value (-39.57) -- physically invalid,high,2026-08-24
+929,payments,PAY0008734,negative_amount_paid,amount_paid set to negative value (-1194.04) -- physically invalid,high,2026-08-24
+930,payments,PAY0008898,negative_amount_paid,amount_paid set to negative value (-1284.91) -- physically invalid,high,2026-08-24
+931,payments,PAY0008947,negative_amount_paid,amount_paid set to negative value (-811.48) -- physically invalid,high,2026-08-24
+932,payments,PAY0009052,negative_amount_paid,amount_paid set to negative value (-559.32) -- physically invalid,high,2026-08-24
+933,payments,PAY0009113,negative_amount_paid,amount_paid set to negative value (-393.56) -- physically invalid,high,2026-08-24
+934,payments,PAY0009302,negative_amount_paid,amount_paid set to negative value (-275.2) -- physically invalid,high,2026-08-24
+935,payments,PAY0009352,negative_amount_paid,amount_paid set to negative value (-2150.27) -- physically invalid,high,2026-08-24
+936,payments,PAY0009409,negative_amount_paid,amount_paid set to negative value (-295.37) -- physically invalid,high,2026-08-24
+937,payments,PAY0009438,negative_amount_paid,amount_paid set to negative value (-668.2) -- physically invalid,high,2026-08-24
+938,payments,PAY0009545,negative_amount_paid,amount_paid set to negative value (-1372.66) -- physically invalid,high,2026-08-24
+939,payments,PAY0009690,negative_amount_paid,amount_paid set to negative value (-1086.9) -- physically invalid,high,2026-08-24
+940,payments,PAY0009726,negative_amount_paid,amount_paid set to negative value (-316.36) -- physically invalid,high,2026-08-24
+941,payments,PAY0009762,negative_amount_paid,amount_paid set to negative value (-2611.51) -- physically invalid,high,2026-08-24
+942,payments,PAY0009786,negative_amount_paid,amount_paid set to negative value (-679.44) -- physically invalid,high,2026-08-24
+943,payments,PAY0009838,negative_amount_paid,amount_paid set to negative value (-909.0742710073386) -- physically invalid,high,2026-08-24
+944,payments,PAY0009912,negative_amount_paid,amount_paid set to negative value (-545.77) -- physically invalid,high,2026-08-24
+945,credit_history,CRHIST0000103,out_of_range_credit_score,"credit_score set to 891, outside the valid domain (bound=850)",high,2026-08-24
+946,credit_history,CRHIST0000141,out_of_range_credit_score,"credit_score set to -36, outside the valid domain (bound=850)",high,2026-08-24
+947,credit_history,CRHIST0000306,out_of_range_credit_score,"credit_score set to -15, outside the valid domain (bound=850)",high,2026-08-24
+948,credit_history,CRHIST0000584,out_of_range_credit_score,"credit_score set to 854, outside the valid domain (bound=850)",high,2026-08-24
+949,credit_history,CRHIST0000602,out_of_range_credit_score,"credit_score set to -20, outside the valid domain (bound=850)",high,2026-08-24
+950,credit_history,CRHIST0000671,out_of_range_credit_score,"credit_score set to 884, outside the valid domain (bound=850)",high,2026-08-24
+951,credit_history,CRHIST0000758,out_of_range_credit_score,"credit_score set to -29, outside the valid domain (bound=850)",high,2026-08-24
+952,credit_history,CRHIST0000924,out_of_range_credit_score,"credit_score set to -50, outside the valid domain (bound=850)",high,2026-08-24
+953,credit_history,CRHIST0000935,out_of_range_credit_score,"credit_score set to -50, outside the valid domain (bound=850)",high,2026-08-24
+954,credit_history,CRHIST0000943,out_of_range_credit_score,"credit_score set to -27, outside the valid domain (bound=850)",high,2026-08-24
+955,credit_history,CRHIST0000954,out_of_range_credit_score,"credit_score set to -13, outside the valid domain (bound=850)",high,2026-08-24
+956,credit_history,CRHIST0000978,out_of_range_credit_score,"credit_score set to 871, outside the valid domain (bound=850)",high,2026-08-24
+957,credit_history,CRHIST0001022,out_of_range_credit_score,"credit_score set to 886, outside the valid domain (bound=850)",high,2026-08-24
+958,credit_history,CRHIST0001038,out_of_range_credit_score,"credit_score set to -27, outside the valid domain (bound=850)",high,2026-08-24
+959,credit_history,CRHIST0001066,out_of_range_credit_score,"credit_score set to -34, outside the valid domain (bound=850)",high,2026-08-24
+960,credit_history,CRHIST0001491,out_of_range_credit_score,"credit_score set to 889, outside the valid domain (bound=850)",high,2026-08-24
+961,credit_history,CRHIST0001507,out_of_range_credit_score,"credit_score set to -14, outside the valid domain (bound=850)",high,2026-08-24
+962,credit_history,CRHIST0002044,out_of_range_credit_score,"credit_score set to -17, outside the valid domain (bound=850)",high,2026-08-24
+963,credit_history,CRHIST0002110,out_of_range_credit_score,"credit_score set to -42, outside the valid domain (bound=850)",high,2026-08-24
+964,credit_history,CRHIST0002217,out_of_range_credit_score,"credit_score set to 866, outside the valid domain (bound=850)",high,2026-08-24
+965,credit_history,CRHIST0002249,out_of_range_credit_score,"credit_score set to -44, outside the valid domain (bound=850)",high,2026-08-24
+966,credit_history,CRHIST0002301,out_of_range_credit_score,"credit_score set to -33, outside the valid domain (bound=850)",high,2026-08-24
+967,credit_history,CRHIST0002415,out_of_range_credit_score,"credit_score set to 883, outside the valid domain (bound=850)",high,2026-08-24
+968,credit_history,CRHIST0002441,out_of_range_credit_score,"credit_score set to 859, outside the valid domain (bound=850)",high,2026-08-24
+969,credit_history,CRHIST0002501,out_of_range_credit_score,"credit_score set to 865, outside the valid domain (bound=850)",high,2026-08-24
+970,credit_history,CRHIST0002547,out_of_range_credit_score,"credit_score set to 897, outside the valid domain (bound=850)",high,2026-08-24
+971,credit_history,CRHIST0002551,out_of_range_credit_score,"credit_score set to -9, outside the valid domain (bound=850)",high,2026-08-24
+972,credit_history,CRHIST0002604,out_of_range_credit_score,"credit_score set to 868, outside the valid domain (bound=850)",high,2026-08-24
+973,credit_history,CRHIST0002749,out_of_range_credit_score,"credit_score set to 866, outside the valid domain (bound=850)",high,2026-08-24
+974,credit_history,CRHIST0002947,out_of_range_credit_score,"credit_score set to 889, outside the valid domain (bound=850)",high,2026-08-24
+975,credit_history,CRHIST0002967,out_of_range_credit_score,"credit_score set to -8, outside the valid domain (bound=850)",high,2026-08-24
+976,customers,CUST0000057,inconsistent_employment_status,employment_status written as 'employed' instead of canonical 'Employed',low,2026-08-24
+977,customers,CUST0000116,inconsistent_employment_status,employment_status written as 'retired' instead of canonical 'Retired',low,2026-08-24
+978,customers,CUST0000157,inconsistent_employment_status,employment_status written as 'FT' instead of canonical 'Employed',low,2026-08-24
+979,customers,CUST0000158,inconsistent_employment_status,employment_status written as 'Freelance' instead of canonical 'Self-employed',low,2026-08-24
+980,customers,CUST0000251,inconsistent_employment_status,employment_status written as 'RETIRED' instead of canonical 'Retired',low,2026-08-24
+981,customers,CUST0000342,inconsistent_employment_status,employment_status written as 'Emp.' instead of canonical 'Employed',low,2026-08-24
+982,customers,CUST0000387,inconsistent_employment_status,employment_status written as 'EMPLOYED' instead of canonical 'Employed',low,2026-08-24
+983,customers,CUST0000526,inconsistent_employment_status,employment_status written as 'Full-time' instead of canonical 'Employed',low,2026-08-24
+984,customers,CUST0000528,inconsistent_employment_status,employment_status written as 'EMPLOYED' instead of canonical 'Employed',low,2026-08-24
+985,customers,CUST0000731,inconsistent_employment_status,employment_status written as 'EMPLOYED' instead of canonical 'Employed',low,2026-08-24
+986,customers,CUST0000753,inconsistent_employment_status,employment_status written as 'Emp.' instead of canonical 'Employed',low,2026-08-24
+987,customers,CUST0000770,inconsistent_employment_status,employment_status written as 'employed' instead of canonical 'Employed',low,2026-08-24
+988,customers,CUST0000780,inconsistent_employment_status,employment_status written as 'EMPLOYED' instead of canonical 'Employed',low,2026-08-24
+989,customers,CUST0000792,inconsistent_employment_status,employment_status written as 'Emp.' instead of canonical 'Employed',low,2026-08-24
+990,customers,CUST0000803,inconsistent_employment_status,employment_status written as 'Freelance' instead of canonical 'Self-employed',low,2026-08-24
+991,customers,CUST0000838,inconsistent_employment_status,employment_status written as 'FT' instead of canonical 'Employed',low,2026-08-24
+992,customers,CUST0000854,inconsistent_employment_status,employment_status written as 'FT' instead of canonical 'Employed',low,2026-08-24
+993,customers,CUST0000938,inconsistent_employment_status,employment_status written as 'Ret.' instead of canonical 'Retired',low,2026-08-24
+994,customers,CUST0000951,inconsistent_employment_status,employment_status written as 'RETIRED' instead of canonical 'Retired',low,2026-08-24
+995,customers,CUST0000982,inconsistent_employment_status,employment_status written as 'Emp.' instead of canonical 'Employed',low,2026-08-24
+996,applications,APP0000139,inconsistent_application_status,application_status written as 'REJECTED' instead of canonical 'Rejected',low,2026-08-24
+997,applications,APP0000238,inconsistent_application_status,application_status written as 'rejected' instead of canonical 'Rejected',low,2026-08-24
+998,applications,APP0000268,inconsistent_application_status,application_status written as 'declined' instead of canonical 'Rejected',low,2026-08-24
+999,applications,APP0000294,inconsistent_application_status,application_status written as 'REJECTED' instead of canonical 'Rejected',low,2026-08-24
+1000,applications,APP0000371,inconsistent_application_status,application_status written as 'REJECTED' instead of canonical 'Rejected',low,2026-08-24
+1001,applications,APP0000433,inconsistent_application_status,application_status written as 'pending' instead of canonical 'Pending',low,2026-08-24
+1002,applications,APP0000481,inconsistent_application_status,application_status written as 'DECL' instead of canonical 'Rejected',low,2026-08-24
+1003,applications,APP0000583,inconsistent_application_status,application_status written as 'Declined' instead of canonical 'Rejected',low,2026-08-24
+1004,applications,APP0000597,inconsistent_application_status,application_status written as 'DECL' instead of canonical 'Rejected',low,2026-08-24
+1005,applications,APP0000615,inconsistent_application_status,application_status written as 'In Review' instead of canonical 'Pending',low,2026-08-24
+1006,applications,APP0000627,inconsistent_application_status,application_status written as 'declined' instead of canonical 'Rejected',low,2026-08-24
+1007,applications,APP0000637,inconsistent_application_status,application_status written as 'APPROVED' instead of canonical 'Approved',low,2026-08-24
+1008,applications,APP0000702,inconsistent_application_status,application_status written as 'declined' instead of canonical 'Rejected',low,2026-08-24
+1009,applications,APP0000728,inconsistent_application_status,application_status written as 'APPROVED' instead of canonical 'Approved',low,2026-08-24
+1010,applications,APP0000754,inconsistent_application_status,application_status written as 'cancelled' instead of canonical 'Withdrawn',low,2026-08-24
+1011,applications,APP0000802,inconsistent_application_status,application_status written as 'APPR' instead of canonical 'Approved',low,2026-08-24
+1012,applications,APP0000853,inconsistent_application_status,application_status written as 'REJECTED' instead of canonical 'Rejected',low,2026-08-24
+1013,applications,APP0000928,inconsistent_application_status,application_status written as 'Appr.' instead of canonical 'Approved',low,2026-08-24
+1014,applications,APP0000983,inconsistent_application_status,application_status written as 'APPROVED' instead of canonical 'Approved',low,2026-08-24
+1015,applications,APP0000984,inconsistent_application_status,application_status written as 'rejected' instead of canonical 'Rejected',low,2026-08-24
+1016,applications,APP0001117,inconsistent_application_status,application_status written as 'REJECTED' instead of canonical 'Rejected',low,2026-08-24
+1017,applications,APP0001145,inconsistent_application_status,application_status written as 'declined' instead of canonical 'Rejected',low,2026-08-24
+1018,applications,APP0001156,inconsistent_application_status,application_status written as 'Appr.' instead of canonical 'Approved',low,2026-08-24
+1019,applications,APP0001185,inconsistent_application_status,application_status written as 'approved' instead of canonical 'Approved',low,2026-08-24
+1020,applications,APP0001186,inconsistent_application_status,application_status written as 'APPR' instead of canonical 'Approved',low,2026-08-24
+1021,applications,APP0001253,inconsistent_application_status,application_status written as 'DECL' instead of canonical 'Rejected',low,2026-08-24
+1022,applications,APP0001299,inconsistent_application_status,application_status written as 'declined' instead of canonical 'Rejected',low,2026-08-24
+1023,applications,APP0001413,inconsistent_application_status,application_status written as 'rejected' instead of canonical 'Rejected',low,2026-08-24
+1024,applications,APP0001416,inconsistent_application_status,application_status written as 'rejected' instead of canonical 'Rejected',low,2026-08-24
+1025,applications,APP0001455,inconsistent_application_status,application_status written as 'approved' instead of canonical 'Approved',low,2026-08-24
+1026,payments,PAY0000061,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1027,payments,PAY0000076,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1028,payments,PAY0000102,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1029,payments,PAY0000146,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1030,payments,PAY0000155,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1031,payments,PAY0000178,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1032,payments,PAY0000203,inconsistent_payment_status,payment_status written as 'Part Payment' instead of canonical 'Partial',low,2026-08-24
+1033,payments,PAY0000270,inconsistent_payment_status,payment_status written as 'NSF' instead of canonical 'Missed',low,2026-08-24
+1034,payments,PAY0000304,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1035,payments,PAY0000323,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1036,payments,PAY0000333,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1037,payments,PAY0000352,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1038,payments,PAY0000368,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1039,payments,PAY0000557,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1040,payments,PAY0000607,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1041,payments,PAY0000641,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1042,payments,PAY0000740,inconsistent_payment_status,payment_status written as 'MISSED' instead of canonical 'Missed',low,2026-08-24
+1043,payments,PAY0000765,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1044,payments,PAY0000823,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1045,payments,PAY0000891,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1046,payments,PAY0000964,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1047,payments,PAY0001010,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1048,payments,PAY0001077,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1049,payments,PAY0001131,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1050,payments,PAY0001205,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1051,payments,PAY0001207,inconsistent_payment_status,payment_status written as 'missed' instead of canonical 'Missed',low,2026-08-24
+1052,payments,PAY0001252,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1053,payments,PAY0001287,inconsistent_payment_status,payment_status written as 'NSF' instead of canonical 'Missed',low,2026-08-24
+1054,payments,PAY0001349,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1055,payments,PAY0001364,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1056,payments,PAY0001456,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1057,payments,PAY0001507,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1058,payments,PAY0001534,inconsistent_payment_status,payment_status written as 'NSF' instead of canonical 'Missed',low,2026-08-24
+1059,payments,PAY0001565,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1060,payments,PAY0001577,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1061,payments,PAY0001723,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1062,payments,PAY0001740,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1063,payments,PAY0001812,inconsistent_payment_status,payment_status written as 'Part Payment' instead of canonical 'Partial',low,2026-08-24
+1064,payments,PAY0001951,inconsistent_payment_status,payment_status written as 'Delayed' instead of canonical 'Late',low,2026-08-24
+1065,payments,PAY0001973,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1066,payments,PAY0001976,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1067,payments,PAY0002036,inconsistent_payment_status,payment_status written as 'delayed' instead of canonical 'Late',low,2026-08-24
+1068,payments,PAY0002088,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1069,payments,PAY0002127,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1070,payments,PAY0002191,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1071,payments,PAY0002288,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1072,payments,PAY0002308,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1073,payments,PAY0002369,inconsistent_payment_status,payment_status written as 'delayed' instead of canonical 'Late',low,2026-08-24
+1074,payments,PAY0002489,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1075,payments,PAY0002558,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1076,payments,PAY0002566,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1077,payments,PAY0002574,inconsistent_payment_status,payment_status written as 'NSF' instead of canonical 'Missed',low,2026-08-24
+1078,payments,PAY0002596,inconsistent_payment_status,payment_status written as 'Delayed' instead of canonical 'Late',low,2026-08-24
+1079,payments,PAY0002618,inconsistent_payment_status,payment_status written as 'partial' instead of canonical 'Partial',low,2026-08-24
+1080,payments,PAY0002689,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1081,payments,PAY0002771,inconsistent_payment_status,payment_status written as 'delayed' instead of canonical 'Late',low,2026-08-24
+1082,payments,PAY0002959,inconsistent_payment_status,payment_status written as 'Delayed' instead of canonical 'Late',low,2026-08-24
+1083,payments,PAY0003029,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1084,payments,PAY0003069,inconsistent_payment_status,payment_status written as 'delayed' instead of canonical 'Late',low,2026-08-24
+1085,payments,PAY0003079,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1086,payments,PAY0003092,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1087,payments,PAY0003125,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1088,payments,PAY0003207,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1089,payments,PAY0003277,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1090,payments,PAY0003279,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1091,payments,PAY0003307,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1092,payments,PAY0003338,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1093,payments,PAY0003341,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1094,payments,PAY0003451,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1095,payments,PAY0003639,inconsistent_payment_status,payment_status written as 'missed' instead of canonical 'Missed',low,2026-08-24
+1096,payments,PAY0003691,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1097,payments,PAY0003698,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1098,payments,PAY0003735,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1099,payments,PAY0003795,inconsistent_payment_status,payment_status written as 'missed' instead of canonical 'Missed',low,2026-08-24
+1100,payments,PAY0003815,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1101,payments,PAY0003828,inconsistent_payment_status,payment_status written as 'delayed' instead of canonical 'Late',low,2026-08-24
+1102,payments,PAY0003859,inconsistent_payment_status,payment_status written as 'MISSED' instead of canonical 'Missed',low,2026-08-24
+1103,payments,PAY0003885,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1104,payments,PAY0003974,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1105,payments,PAY0004091,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1106,payments,PAY0004135,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1107,payments,PAY0004186,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1108,payments,PAY0004252,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1109,payments,PAY0004259,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1110,payments,PAY0004306,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1111,payments,PAY0004327,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1112,payments,PAY0004339,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1113,payments,PAY0004344,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1114,payments,PAY0004386,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1115,payments,PAY0004414,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1116,payments,PAY0004424,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1117,payments,PAY0004507,inconsistent_payment_status,payment_status written as 'MISSED' instead of canonical 'Missed',low,2026-08-24
+1118,payments,PAY0004508,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1119,payments,PAY0004539,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1120,payments,PAY0004655,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1121,payments,PAY0004714,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1122,payments,PAY0004733,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1123,payments,PAY0004805,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1124,payments,PAY0004821,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1125,payments,PAY0004852,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1126,payments,PAY0004862,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1127,payments,PAY0004865,inconsistent_payment_status,payment_status written as 'missed' instead of canonical 'Missed',low,2026-08-24
+1128,payments,PAY0004944,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1129,payments,PAY0004995,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1130,payments,PAY0005072,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1131,payments,PAY0005097,inconsistent_payment_status,payment_status written as 'LATE' instead of canonical 'Late',low,2026-08-24
+1132,payments,PAY0005112,inconsistent_payment_status,payment_status written as 'Part Payment' instead of canonical 'Partial',low,2026-08-24
+1133,payments,PAY0005128,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1134,payments,PAY0005150,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1135,payments,PAY0005189,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1136,payments,PAY0005597,inconsistent_payment_status,payment_status written as 'Delayed' instead of canonical 'Late',low,2026-08-24
+1137,payments,PAY0005642,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1138,payments,PAY0005668,inconsistent_payment_status,payment_status written as 'MISSED' instead of canonical 'Missed',low,2026-08-24
+1139,payments,PAY0005706,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1140,payments,PAY0005750,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1141,payments,PAY0005821,inconsistent_payment_status,payment_status written as 'delayed' instead of canonical 'Late',low,2026-08-24
+1142,payments,PAY0005866,inconsistent_payment_status,payment_status written as 'Failed' instead of canonical 'Missed',low,2026-08-24
+1143,payments,PAY0005870,inconsistent_payment_status,payment_status written as 'LATE' instead of canonical 'Late',low,2026-08-24
+1144,payments,PAY0005949,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1145,payments,PAY0005959,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1146,payments,PAY0005995,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1147,payments,PAY0006105,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1148,payments,PAY0006146,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1149,payments,PAY0006153,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1150,payments,PAY0006186,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1151,payments,PAY0006265,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1152,payments,PAY0006269,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1153,payments,PAY0006288,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1154,payments,PAY0006326,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1155,payments,PAY0006364,inconsistent_payment_status,payment_status written as 'delayed' instead of canonical 'Late',low,2026-08-24
+1156,payments,PAY0006427,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1157,payments,PAY0006483,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1158,payments,PAY0006640,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1159,payments,PAY0006661,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1160,payments,PAY0006710,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1161,payments,PAY0006755,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1162,payments,PAY0006756,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1163,payments,PAY0006765,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1164,payments,PAY0006827,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1165,payments,PAY0006843,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1166,payments,PAY0007108,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1167,payments,PAY0007165,inconsistent_payment_status,payment_status written as 'NSF' instead of canonical 'Missed',low,2026-08-24
+1168,payments,PAY0007177,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1169,payments,PAY0007235,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1170,payments,PAY0007280,inconsistent_payment_status,payment_status written as 'delayed' instead of canonical 'Late',low,2026-08-24
+1171,payments,PAY0007306,inconsistent_payment_status,payment_status written as 'NSF' instead of canonical 'Missed',low,2026-08-24
+1172,payments,PAY0007371,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1173,payments,PAY0007459,inconsistent_payment_status,payment_status written as 'Failed' instead of canonical 'Missed',low,2026-08-24
+1174,payments,PAY0007482,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1175,payments,PAY0007513,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1176,payments,PAY0007750,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1177,payments,PAY0007752,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1178,payments,PAY0007779,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1179,payments,PAY0007787,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1180,payments,PAY0007848,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1181,payments,PAY0007886,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1182,payments,PAY0007898,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1183,payments,PAY0007961,inconsistent_payment_status,payment_status written as 'late' instead of canonical 'Late',low,2026-08-24
+1184,payments,PAY0008000,inconsistent_payment_status,payment_status written as 'MISSED' instead of canonical 'Missed',low,2026-08-24
+1185,payments,PAY0008018,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1186,payments,PAY0008039,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1187,payments,PAY0008053,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1188,payments,PAY0008098,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1189,payments,PAY0008163,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1190,payments,PAY0008329,inconsistent_payment_status,payment_status written as 'delayed' instead of canonical 'Late',low,2026-08-24
+1191,payments,PAY0008347,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1192,payments,PAY0008355,inconsistent_payment_status,payment_status written as 'NSF' instead of canonical 'Missed',low,2026-08-24
+1193,payments,PAY0008360,inconsistent_payment_status,payment_status written as 'Failed' instead of canonical 'Missed',low,2026-08-24
+1194,payments,PAY0008540,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1195,payments,PAY0008580,inconsistent_payment_status,payment_status written as 'LATE' instead of canonical 'Late',low,2026-08-24
+1196,payments,PAY0008630,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1197,payments,PAY0008637,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1198,payments,PAY0008725,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1199,payments,PAY0008800,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1200,payments,PAY0008807,inconsistent_payment_status,payment_status written as 'missed' instead of canonical 'Missed',low,2026-08-24
+1201,payments,PAY0008852,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1202,payments,PAY0008891,inconsistent_payment_status,payment_status written as 'Part Payment' instead of canonical 'Partial',low,2026-08-24
+1203,payments,PAY0008937,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1204,payments,PAY0008942,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1205,payments,PAY0008972,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1206,payments,PAY0009001,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1207,payments,PAY0009024,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1208,payments,PAY0009032,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1209,payments,PAY0009107,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1210,payments,PAY0009118,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1211,payments,PAY0009153,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1212,payments,PAY0009238,inconsistent_payment_status,payment_status written as 'Failed' instead of canonical 'Missed',low,2026-08-24
+1213,payments,PAY0009241,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1214,payments,PAY0009263,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1215,payments,PAY0009332,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1216,payments,PAY0009422,inconsistent_payment_status,payment_status written as 'delayed' instead of canonical 'Late',low,2026-08-24
+1217,payments,PAY0009486,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1218,payments,PAY0009570,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1219,payments,PAY0009622,inconsistent_payment_status,payment_status written as 'missed' instead of canonical 'Missed',low,2026-08-24
+1220,payments,PAY0009660,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1221,payments,PAY0009670,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1222,payments,PAY0009675,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1223,payments,PAY0009685,inconsistent_payment_status,payment_status written as 'Part Payment' instead of canonical 'Partial',low,2026-08-24
+1224,payments,PAY0009905,inconsistent_payment_status,payment_status written as 'On Time' instead of canonical 'On-time',low,2026-08-24
+1225,payments,PAY0009966,inconsistent_payment_status,payment_status written as 'on time' instead of canonical 'On-time',low,2026-08-24
+1226,payments,PAY0009998,inconsistent_payment_status,payment_status written as 'OK' instead of canonical 'On-time',low,2026-08-24
+1227,payments,PAY0008901,inconsistent_payment_status,payment_status written as 'ON-TIME' instead of canonical 'On-time',low,2026-08-24
+1228,applications,APP0001296,decision_before_application,decision_date falls before application_date,high,2026-08-24
+1229,applications,APP0001464,decision_before_application,decision_date falls before application_date,high,2026-08-24
+1230,applications,APP0000473,decision_before_application,decision_date falls before application_date,high,2026-08-24
+1231,applications,APP0001360,decision_before_application,decision_date falls before application_date,high,2026-08-24
+1232,applications,APP0000133,decision_before_application,decision_date falls before application_date,high,2026-08-24
+1233,applications,APP0000247,decision_before_application,decision_date falls before application_date,high,2026-08-24
+1234,applications,APP0000676,decision_before_application,decision_date falls before application_date,high,2026-08-24
+1235,applications,APP0001269,decision_before_application,decision_date falls before application_date,high,2026-08-24
+1236,loans,LOAN0000005,maturity_before_start,maturity_date falls before start_date,high,2026-08-24
+1237,loans,LOAN0000173,maturity_before_start,maturity_date falls before start_date,high,2026-08-24
+1238,loans,LOAN0000488,maturity_before_start,maturity_date falls before start_date,high,2026-08-24
+1239,payments,PAY0000176,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1240,payments,PAY0000397,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1241,payments,PAY0000403,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1242,payments,PAY0000416,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1243,payments,PAY0000796,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1244,payments,PAY0000961,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1245,payments,PAY0001408,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1246,payments,PAY0001678,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1247,payments,PAY0001840,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1248,payments,PAY0001988,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1249,payments,PAY0002385,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1250,payments,PAY0002726,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1251,payments,PAY0002774,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1252,payments,PAY0003162,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1253,payments,PAY0003169,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1254,payments,PAY0003477,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1255,payments,PAY0003553,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1256,payments,PAY0004169,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1257,payments,PAY0005338,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1258,payments,PAY0005455,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1259,payments,PAY0005462,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1260,payments,PAY0005537,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1261,payments,PAY0005636,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1262,payments,PAY0005638,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1263,payments,PAY0005647,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1264,payments,PAY0005894,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1265,payments,PAY0005915,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1266,payments,PAY0006429,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1267,payments,PAY0006762,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1268,payments,PAY0007117,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1269,payments,PAY0007119,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1270,payments,PAY0007271,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1271,payments,PAY0007395,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1272,payments,PAY0007617,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1273,payments,PAY0007699,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1274,payments,PAY0007706,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1275,payments,PAY0007742,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1276,payments,PAY0008030,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1277,payments,PAY0008466,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1278,payments,PAY0008550,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1279,payments,PAY0008723,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1280,payments,PAY0009066,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1281,payments,PAY0009640,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1282,payments,PAY0009822,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1283,payments,PAY0006037,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1284,payments,PAY0007393,payment_before_loan_start,payment_date falls before the loan's start_date,high,2026-08-24
+1285,applications,APP0000018,orphan_customer_id,"customer_id references 'CUST9406783', which does not exist in the parent table",high,2026-08-24
+1286,applications,APP0000065,orphan_customer_id,"customer_id references 'CUST9749820', which does not exist in the parent table",high,2026-08-24
+1287,applications,APP0000194,orphan_customer_id,"customer_id references 'CUST9251279', which does not exist in the parent table",high,2026-08-24
+1288,applications,APP0000462,orphan_customer_id,"customer_id references 'CUST9267218', which does not exist in the parent table",high,2026-08-24
+1289,applications,APP0000528,orphan_customer_id,"customer_id references 'CUST9013577', which does not exist in the parent table",high,2026-08-24
+1290,applications,APP0000862,orphan_customer_id,"customer_id references 'CUST9417967', which does not exist in the parent table",high,2026-08-24
+1291,applications,APP0001135,orphan_customer_id,"customer_id references 'CUST9764642', which does not exist in the parent table",high,2026-08-24
+1292,applications,APP0001478,orphan_customer_id,"customer_id references 'CUST9606894', which does not exist in the parent table",high,2026-08-24
+1293,loans,LOAN0000281,orphan_application_id,"application_id references 'APP9195198', which does not exist in the parent table",high,2026-08-24
+1294,loans,LOAN0000408,orphan_application_id,"application_id references 'APP9448340', which does not exist in the parent table",high,2026-08-24
+1295,loans,LOAN0000506,orphan_application_id,"application_id references 'APP9152836', which does not exist in the parent table",high,2026-08-24
+1296,payments,PAY0000315,orphan_loan_id,"loan_id references 'LOAN9476970', which does not exist in the parent table",high,2026-08-24
+1297,payments,PAY0000352,orphan_loan_id,"loan_id references 'LOAN9554006', which does not exist in the parent table",high,2026-08-24
+1298,payments,PAY0000471,orphan_loan_id,"loan_id references 'LOAN9675367', which does not exist in the parent table",high,2026-08-24
+1299,payments,PAY0000482,orphan_loan_id,"loan_id references 'LOAN9187266', which does not exist in the parent table",high,2026-08-24
+1300,payments,PAY0000747,orphan_loan_id,"loan_id references 'LOAN9546966', which does not exist in the parent table",high,2026-08-24
+1301,payments,PAY0000784,orphan_loan_id,"loan_id references 'LOAN9338563', which does not exist in the parent table",high,2026-08-24
+1302,payments,PAY0001424,orphan_loan_id,"loan_id references 'LOAN9807597', which does not exist in the parent table",high,2026-08-24
+1303,payments,PAY0001694,orphan_loan_id,"loan_id references 'LOAN9948372', which does not exist in the parent table",high,2026-08-24
+1304,payments,PAY0001762,orphan_loan_id,"loan_id references 'LOAN9995013', which does not exist in the parent table",high,2026-08-24
+1305,payments,PAY0002233,orphan_loan_id,"loan_id references 'LOAN9116739', which does not exist in the parent table",high,2026-08-24
+1306,payments,PAY0002460,orphan_loan_id,"loan_id references 'LOAN9435723', which does not exist in the parent table",high,2026-08-24
+1307,payments,PAY0002483,orphan_loan_id,"loan_id references 'LOAN9480122', which does not exist in the parent table",high,2026-08-24
+1308,payments,PAY0002665,orphan_loan_id,"loan_id references 'LOAN9113942', which does not exist in the parent table",high,2026-08-24
+1309,payments,PAY0002920,orphan_loan_id,"loan_id references 'LOAN9712606', which does not exist in the parent table",high,2026-08-24
+1310,payments,PAY0003299,orphan_loan_id,"loan_id references 'LOAN9368813', which does not exist in the parent table",high,2026-08-24
+1311,payments,PAY0003332,orphan_loan_id,"loan_id references 'LOAN9982478', which does not exist in the parent table",high,2026-08-24
+1312,payments,PAY0003947,orphan_loan_id,"loan_id references 'LOAN9776400', which does not exist in the parent table",high,2026-08-24
+1313,payments,PAY0004022,orphan_loan_id,"loan_id references 'LOAN9474885', which does not exist in the parent table",high,2026-08-24
+1314,payments,PAY0004134,orphan_loan_id,"loan_id references 'LOAN9866800', which does not exist in the parent table",high,2026-08-24
+1315,payments,PAY0004490,orphan_loan_id,"loan_id references 'LOAN9289518', which does not exist in the parent table",high,2026-08-24
+1316,payments,PAY0004509,orphan_loan_id,"loan_id references 'LOAN9840736', which does not exist in the parent table",high,2026-08-24
+1317,payments,PAY0004558,orphan_loan_id,"loan_id references 'LOAN9049095', which does not exist in the parent table",high,2026-08-24
+1318,payments,PAY0004835,orphan_loan_id,"loan_id references 'LOAN9762251', which does not exist in the parent table",high,2026-08-24
+1319,payments,PAY0005610,orphan_loan_id,"loan_id references 'LOAN9846131', which does not exist in the parent table",high,2026-08-24
+1320,payments,PAY0005854,orphan_loan_id,"loan_id references 'LOAN9200277', which does not exist in the parent table",high,2026-08-24
+1321,payments,PAY0006432,orphan_loan_id,"loan_id references 'LOAN9745163', which does not exist in the parent table",high,2026-08-24
+1322,payments,PAY0006601,orphan_loan_id,"loan_id references 'LOAN9518407', which does not exist in the parent table",high,2026-08-24
+1323,payments,PAY0006621,orphan_loan_id,"loan_id references 'LOAN9880298', which does not exist in the parent table",high,2026-08-24
+1324,payments,PAY0006697,orphan_loan_id,"loan_id references 'LOAN9578183', which does not exist in the parent table",high,2026-08-24
+1325,payments,PAY0007044,orphan_loan_id,"loan_id references 'LOAN9070021', which does not exist in the parent table",high,2026-08-24
+1326,payments,PAY0007244,orphan_loan_id,"loan_id references 'LOAN9715173', which does not exist in the parent table",high,2026-08-24
+1327,payments,PAY0007314,orphan_loan_id,"loan_id references 'LOAN9679681', which does not exist in the parent table",high,2026-08-24
+1328,payments,PAY0007486,orphan_loan_id,"loan_id references 'LOAN9580765', which does not exist in the parent table",high,2026-08-24
+1329,payments,PAY0007505,orphan_loan_id,"loan_id references 'LOAN9197279', which does not exist in the parent table",high,2026-08-24
+1330,payments,PAY0007784,orphan_loan_id,"loan_id references 'LOAN9146566', which does not exist in the parent table",high,2026-08-24
+1331,payments,PAY0007796,orphan_loan_id,"loan_id references 'LOAN9540873', which does not exist in the parent table",high,2026-08-24
+1332,payments,PAY0007814,orphan_loan_id,"loan_id references 'LOAN9700852', which does not exist in the parent table",high,2026-08-24
+1333,payments,PAY0007886,orphan_loan_id,"loan_id references 'LOAN9239489', which does not exist in the parent table",high,2026-08-24
+1334,payments,PAY0007954,orphan_loan_id,"loan_id references 'LOAN9524224', which does not exist in the parent table",high,2026-08-24
+1335,payments,PAY0008303,orphan_loan_id,"loan_id references 'LOAN9193479', which does not exist in the parent table",high,2026-08-24
+1336,payments,PAY0008613,orphan_loan_id,"loan_id references 'LOAN9332876', which does not exist in the parent table",high,2026-08-24
+1337,payments,PAY0008633,orphan_loan_id,"loan_id references 'LOAN9990156', which does not exist in the parent table",high,2026-08-24
+1338,payments,PAY0008680,orphan_loan_id,"loan_id references 'LOAN9195452', which does not exist in the parent table",high,2026-08-24
+1339,payments,PAY0008703,orphan_loan_id,"loan_id references 'LOAN9127511', which does not exist in the parent table",high,2026-08-24
+1340,payments,PAY0008869,orphan_loan_id,"loan_id references 'LOAN9190170', which does not exist in the parent table",high,2026-08-24
+1341,payments,PAY0008962,orphan_loan_id,"loan_id references 'LOAN9630678', which does not exist in the parent table",high,2026-08-24
+1342,payments,PAY0009065,orphan_loan_id,"loan_id references 'LOAN9868334', which does not exist in the parent table",high,2026-08-24
+1343,payments,PAY0009194,orphan_loan_id,"loan_id references 'LOAN9957064', which does not exist in the parent table",high,2026-08-24
+1344,payments,PAY0009439,orphan_loan_id,"loan_id references 'LOAN9581458', which does not exist in the parent table",high,2026-08-24
+1345,payments,PAY0009958,orphan_loan_id,"loan_id references 'LOAN9145337', which does not exist in the parent table",high,2026-08-24
+1346,credit_history,CRHIST0000004,orphan_customer_id,"customer_id references 'CUST9325848', which does not exist in the parent table",high,2026-08-24
+1347,credit_history,CRHIST0000110,orphan_customer_id,"customer_id references 'CUST9301445', which does not exist in the parent table",high,2026-08-24
+1348,credit_history,CRHIST0000140,orphan_customer_id,"customer_id references 'CUST9395134', which does not exist in the parent table",high,2026-08-24
+1349,credit_history,CRHIST0001062,orphan_customer_id,"customer_id references 'CUST9945877', which does not exist in the parent table",high,2026-08-24
+1350,credit_history,CRHIST0001195,orphan_customer_id,"customer_id references 'CUST9131106', which does not exist in the parent table",high,2026-08-24
+1351,credit_history,CRHIST0001204,orphan_customer_id,"customer_id references 'CUST9075731', which does not exist in the parent table",high,2026-08-24
+1352,credit_history,CRHIST0001491,orphan_customer_id,"customer_id references 'CUST9037685', which does not exist in the parent table",high,2026-08-24
+1353,credit_history,CRHIST0001578,orphan_customer_id,"customer_id references 'CUST9186182', which does not exist in the parent table",high,2026-08-24
+1354,credit_history,CRHIST0001912,orphan_customer_id,"customer_id references 'CUST9718729', which does not exist in the parent table",high,2026-08-24
+1355,credit_history,CRHIST0002213,orphan_customer_id,"customer_id references 'CUST9115255', which does not exist in the parent table",high,2026-08-24
+1356,credit_history,CRHIST0002252,orphan_customer_id,"customer_id references 'CUST9221528', which does not exist in the parent table",high,2026-08-24
+1357,credit_history,CRHIST0002356,orphan_customer_id,"customer_id references 'CUST9123712', which does not exist in the parent table",high,2026-08-24
+1358,credit_history,CRHIST0002529,orphan_customer_id,"customer_id references 'CUST9030744', which does not exist in the parent table",high,2026-08-24
+1359,credit_history,CRHIST0002547,orphan_customer_id,"customer_id references 'CUST9701367', which does not exist in the parent table",high,2026-08-24
+1360,credit_history,CRHIST0002850,orphan_customer_id,"customer_id references 'CUST9756351', which does not exist in the parent table",high,2026-08-24
+1361,applications,APP0000132,rejected_with_active_loan,Application status is Rejected but a loan already exists for it,high,2026-08-24
+1362,applications,APP0000812,rejected_with_active_loan,Application status is Rejected but a loan already exists for it,high,2026-08-24
+1363,applications,APP0000613,rejected_with_active_loan,Application status is Rejected but a loan already exists for it,high,2026-08-24
+1364,payments,PAY0000342,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1365,payments,PAY0000463,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1366,payments,PAY0001604,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1367,payments,PAY0001740,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1368,payments,PAY0002015,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1369,payments,PAY0002180,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1370,payments,PAY0002317,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1371,payments,PAY0002323,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1372,payments,PAY0002556,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1373,payments,PAY0002602,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1374,payments,PAY0002676,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1375,payments,PAY0002717,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1376,payments,PAY0002765,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1377,payments,PAY0002818,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1378,payments,PAY0002987,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1379,payments,PAY0003071,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1380,payments,PAY0003241,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1381,payments,PAY0003467,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1382,payments,PAY0003518,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1383,payments,PAY0003570,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1384,payments,PAY0003596,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1385,payments,PAY0004109,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1386,payments,PAY0004369,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1387,payments,PAY0004615,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1388,payments,PAY0004882,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1389,payments,PAY0005115,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1390,payments,PAY0005351,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1391,payments,PAY0005382,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1392,payments,PAY0005395,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1393,payments,PAY0005552,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1394,payments,PAY0005573,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1395,payments,PAY0005836,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1396,payments,PAY0006074,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1397,payments,PAY0006303,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1398,payments,PAY0007108,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1399,payments,PAY0007255,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1400,payments,PAY0007364,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1401,payments,PAY0007579,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1402,payments,PAY0007728,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1403,payments,PAY0007730,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1404,payments,PAY0007774,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1405,payments,PAY0008879,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1406,payments,PAY0009009,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1407,payments,PAY0009112,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1408,payments,PAY0009237,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1409,payments,PAY0009331,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1410,payments,PAY0009490,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1411,payments,PAY0009785,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1412,payments,PAY0009828,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1413,payments,PAY0008649,negative_payment_amount,"amount_paid is negative, which is not a valid payment amount",high,2026-08-24
+1414,payments,PAY0004168,overpayment_exceeds_loan,amount_paid (35641.08) combined with other payments unrealistically exceeds loan_amount (20484.9),medium,2026-08-24
+1415,payments,PAY0004661,overpayment_exceeds_loan,amount_paid (nan) combined with other payments unrealistically exceeds loan_amount (nan),medium,2026-08-24
+1416,payments,PAY0007283,overpayment_exceeds_loan,amount_paid (69396.46) combined with other payments unrealistically exceeds loan_amount (24322.81),medium,2026-08-24
+1417,loans,LOAN0000112,defaulted_loan_all_ontime_payments,Loan is marked Defaulted but all of its payments are marked On-time,medium,2026-08-24

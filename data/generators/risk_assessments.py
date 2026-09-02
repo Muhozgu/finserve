@@ -46,7 +46,7 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
-from data_source.utils.helpers import make_ids, zscore, logistic
+from data.utils.helpers import make_ids, zscore, logistic
 
 
 def _compute_pd(
