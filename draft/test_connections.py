@@ -1,5 +1,5 @@
-from connections.postgres import get_postgres_connection
-from connections.snowflake import get_snowflake_connection
+from draft.connections.postgres import get_postgres_connection
+from draft.connections.snowflake import get_snowflake_connection
 
 
 def test_postgres():
