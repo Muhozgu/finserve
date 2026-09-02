@@ -197,9 +197,6 @@ final AS (
         payment_completion,
         payment_timing,
         
-        -- Created/updated timestamps
-        created_at,
-        updated_at
         
     FROM payment_behavior
 )

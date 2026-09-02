@@ -95,8 +95,7 @@ final AS (
             ELSE FALSE
         END AS is_final_decision,
         application_channel_standardized AS application_channel,
-        has_valid_status,
-        created_at
+        has_valid_status
     FROM channel_cleaned
 )
 

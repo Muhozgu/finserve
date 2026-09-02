@@ -175,8 +175,7 @@ final AS (
         model_version,
         
         -- Created/updated timestamps (if they exist in the data)
-        created_at,
-        updated_at
+   
         
     FROM consistency_check
 )

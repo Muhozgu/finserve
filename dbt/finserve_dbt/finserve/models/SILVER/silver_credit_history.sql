@@ -214,9 +214,7 @@ final AS (
             ELSE FALSE
         END AS has_data_quality_issue,
         
-        -- Created/updated timestamps
-        created_at,
-        updated_at
+        -- Created/updated timestamp
         
     FROM credit_bands
 )

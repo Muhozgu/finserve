@@ -211,9 +211,6 @@ final AS (
         estimated_total_interest,
         loan_size_band,
         
-        -- Created/updated timestamps
-        created_at,
-        updated_at
         
     FROM performance_metrics
 )
