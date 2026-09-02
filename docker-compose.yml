@@ -19,7 +19,7 @@ services:
     build: .
     container_name: finserve_generator
     volumes:
-      - ./data/raw:/app/data/raw
+      - ./data/raw:/data/raw
     command: >
       python data/generate_data.py
       --customers 100000 --applications 150000 --loans 100000 --payments 1000000 --credit-history 300000 --output data
@@ -30,8 +30,8 @@ services:
     env_file:
       - .env
     volumes:
-      - ./data/raw:/app/data/raw
-    command: python loader/snowflake_loader.py --data-dir data/raw
+      - ./data/raw:/finserve/data/raw
+    command: python loader/snowflake_loader.py --data-dir data/raw --schema BRONZE
 
   dbt:
     build: .
@@ -39,10 +39,10 @@ services:
     env_file:
       - .env
     environment:
-      DBT_PROFILES_DIR: /app/dbt
+      DBT_PROFILES_DIR: /finserve/dbt
     volumes:
-      - ./dbt:/app/dbt
-    working_dir: /app/dbt/finserve_dbt
+      - ./dbt:/finserve/dbt
+    working_dir: /finserve/dbt/finserve_dbt/finserve
     entrypoint: ["dbt"]
     # default command; override e.g. `docker compose run --rm dbt test`
     command: ["run"]

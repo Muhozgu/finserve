@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: FINSERVE_DB
+    schema: BRONZE
+    tables:
+      - name: customers
+      - name: applications
+      - name: loans
+      - name: payments
+      - name: credit_history
+      - name: risk_assessments
+      - name: data_quality_issues
