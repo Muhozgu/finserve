@@ -1,0 +1,48 @@
+# NovaSpin Casino Analytics pipeline
+#
+# These are one-off pipeline stages, not long-running services, so run
+# them in order with `docker compose run` rather than `docker compose up`
+# (with `up`, all three would start in parallel and the loader would run
+# before the generator has produced any CSVs):
+#
+#   docker compose run --rm generator
+#   docker compose run --rm loader
+#   docker compose run --rm dbt run
+#   docker compose run --rm dbt test
+#
+# Before running loader/dbt, copy .env.example to .env and fill in your
+# Snowflake credentials, and copy dbt/profiles.yml.example to
+# dbt/profiles.yml (both are gitignored).
+
+services:
+  generator:
+    build: .
+    container_name: finserve_generator
+    volumes:
+      - ./data/raw:/app/data/raw
+    command: >
+      python data/generate_data.py
+      --players 8000 --sessions 150000 --output-dir data/raw
+
+  loader:
+    build: .
+    container_name: finserve_loader
+    env_file:
+      - .env
+    volumes:
+      - ./data/raw:/app/data/raw
+    command: python loader/snowflake_loader.py --data-dir data/raw
+
+  dbt:
+    build: .
+    container_name: finserve_dbt
+    env_file:
+      - .env
+    environment:
+      DBT_PROFILES_DIR: /app/dbt
+    volumes:
+      - ./dbt:/app/dbt
+    working_dir: /app/dbt/finserve_dbt
+    entrypoint: ["dbt"]
+    # default command; override e.g. `docker compose run --rm dbt test`
+    command: ["run"]

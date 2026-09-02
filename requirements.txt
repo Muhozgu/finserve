@@ -1,0 +1,6 @@
+pandas>=2.0
+numpy>=1.24
+faker
+snowflake-connector-python[pandas]
+dbt-core
+dbt-snowflake
