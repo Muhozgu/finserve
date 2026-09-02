@@ -5,7 +5,7 @@ finserve:
       database: FINSERVE_DB
       password: Ph5S8Ainy2iS4hG
       role: ACCOUNTADMIN
-      schema: FINSERVE_DB.PUBLIC
+      schema: PUBLIC
       threads: 4
       type: snowflake
       user: muhozgu
