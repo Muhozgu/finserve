@@ -1,0 +1,13 @@
+finserve_dbt:
+  target: dev
+
+  outputs:
+    dev:
+      type: snowflake
+      account: "WQJCOHK-WB64060"
+      user: "MUHOZGU"
+      password: "Ph5S8Ainy2iS4hG"
+      warehouse: "FINSERVE_WH"
+      database: "FINSERVE_DB"
+      schema: "PUBLIC"
+      threads: 4
