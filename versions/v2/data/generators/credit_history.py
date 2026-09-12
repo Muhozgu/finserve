@@ -21,7 +21,7 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
-from data.utils.helpers import make_ids
+from draft.subdraft.data.utils.helpers import make_ids
 
 
 def _base_credit_quality(annual_income: np.ndarray, employment_status: np.ndarray,

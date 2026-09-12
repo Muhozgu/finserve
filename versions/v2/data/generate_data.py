@@ -31,15 +31,15 @@ import time
 import numpy as np
 import pandas as pd
 
-from data.config import Config, DEFAULT_ERROR_CONFIG, EMPLOYMENT_STATUS_VARIANTS, \
+from draft.subdraft.data.config import Config, DEFAULT_ERROR_CONFIG, EMPLOYMENT_STATUS_VARIANTS, \
     APPLICATION_STATUS_VARIANTS, PAYMENT_STATUS_VARIANTS
-from data.generators.customers import generate_customers
-from data.generators.applications import generate_applications
-from data.generators.loans import generate_loans
-from data.generators.payments import generate_payments
-from data.generators.credit_history import generate_credit_history
-from data.generators.risk_assessments import generate_risk_assessments
-from data.quality.error_injection import (
+from draft.subdraft.data.generators.customers import generate_customers
+from draft.subdraft.data.generators.applications import generate_applications
+from draft.subdraft.data.generators.loans import generate_loans
+from draft.subdraft.data.generators.payments import generate_payments
+from draft.subdraft.data.generators.credit_history import generate_credit_history
+from draft.subdraft.data.generators.risk_assessments import generate_risk_assessments
+from draft.subdraft.data.quality.error_injection import (
     IssueLog,
     inject_missing_values,
     inject_duplicates,

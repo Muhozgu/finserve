@@ -32,7 +32,7 @@ from typing import List, Dict, Any
 import numpy as np
 import pandas as pd
 
-from data.config import (
+from draft.subdraft.data.config import (
     EMPLOYMENT_STATUS_VARIANTS,
     APPLICATION_STATUS_VARIANTS,
     PAYMENT_STATUS_VARIANTS,
