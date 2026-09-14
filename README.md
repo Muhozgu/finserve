@@ -2,10 +2,6 @@
 
 An AI-powered process automation platform for financial operations, combining a Python/Pandas ETL pipeline, Snowflake + dbt data warehousing, and Llama 3-driven agents orchestrated via n8n and Power Automate.
 
-> **Note:** FinServe was built as a portfolio/challenge project simulating financial operations workflows (credit memos, ticket triage, portfolio reporting).
-
----
-
 ## Project Goals
 
 - Practice building a full data + AI automation pipeline end to end (ingestion → warehouse → transformation → agents → reporting)
@@ -20,7 +16,7 @@ An AI-powered process automation platform for financial operations, combining a 
 |---|---|
 | Language / ETL | Python (Pandas) |
 | Version control | Git / GitHub |
-| Data storage | MS Access, PostgreSQL, Snowflake |
+| Data storage | MS Access, Snowflake |
 | Transformation | dbt (Bronze → Silver → Gold) |
 | AI / LLM | Llama 3 (modular agents) |
 | Workflow automation | n8n, Power Automate |
