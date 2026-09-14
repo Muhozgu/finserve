@@ -2,8 +2,6 @@
 
 An AI-powered process automation platform for financial operations, combining a Python/Pandas ETL pipeline, Snowflake + dbt data warehousing, and Llama 3-driven agents orchestrated via n8n and Power Automate.
 
----
-
 ## Project Goals
 
 - Practice building a full data + AI automation pipeline end to end (ingestion → warehouse → transformation → agents → reporting)
