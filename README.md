@@ -18,7 +18,7 @@ An AI-powered process automation platform for financial operations, combining a 
 |---|---|
 | Language / ETL | Python (Pandas) |
 | Version control | Git / GitHub |
-| Data storage | MS Access, PostgreSQL, Snowflake |
+| Data storage | MS Access, Snowflake |
 | Transformation | dbt (Bronze → Silver → Gold) |
 | AI / LLM | Llama 3 (modular agents) |
 | Workflow automation | n8n, Power Automate |
