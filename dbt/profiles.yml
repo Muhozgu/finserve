@@ -1,0 +1,13 @@
+finserve:
+  outputs:
+    dev:
+      account: WQJCOHK-WB64060
+      database: FINSERVE_DB
+      password: mAYGrEx64Gumg9x
+      role: ACCOUNTADMIN
+      schema: dev_schema
+      threads: 4
+      type: snowflake
+      user: MUHOZGU
+      warehouse: FINSERVE
+  target: dev

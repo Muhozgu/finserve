@@ -1,0 +1,106 @@
+[0m14:36:33.195547 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a554708e650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a5543985190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a55439d6690>]}
+
+
+============================== 14:36:33.205971 | 79ae7d24-9861-42f8-99cf-f275babc7074 ==============================
+[0m14:36:33.205971 [info ] [MainThread]: Running with dbt=1.12.3
+[0m14:36:33.208584 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'introspect': 'True', 'fail_fast': 'False', 'warn_error': 'None', 'log_format': 'default', 'partial_parse': 'True', 'profiles_dir': '/finserve/dbt', 'static_parser': 'True', 'cache_selected_only': 'False', 'quiet': 'False', 'no_print': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False', 'target_path': 'None', 'empty': 'False', 'write_json': 'True', 'log_cache_events': 'False', 'log_path': 'logs', 'maximum_seed_size_mib': '1', 'version_check': 'True', 'hints_enabled': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80'}
+[0m14:36:33.211100 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /finserve/dbt/finserve_dbt/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:36:33.214519 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.12661904, "process_in_blocks": "113736", "process_kernel_time": 0.635972, "process_mem_max_rss": "114448", "process_out_blocks": "2192", "process_user_time": 2.71588}
+[0m14:36:33.216630 [debug] [MainThread]: Command `dbt run` failed at 14:36:33.216421 after 0.13 seconds
+[0m14:36:33.218639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a55438bd990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a55439851d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a5543987e90>]}
+[0m14:36:33.220467 [debug] [MainThread]: Flushing usage events
+[0m14:36:34.493668 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:59:11.238097 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x732b55032650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x732b55030ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x732b518fac10>]}
+
+
+============================== 14:59:11.246678 | 8e31ac17-9a03-45ce-8dd3-384ce854b710 ==============================
+[0m14:59:11.246678 [info ] [MainThread]: Running with dbt=1.12.3
+[0m14:59:11.248744 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'profiles_dir': '/finserve/dbt', 'invocation_command': 'dbt init', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'None', 'static_parser': 'True', 'log_path': 'logs', 'partial_parse': 'True', 'log_format': 'default', 'cache_selected_only': 'False', 'warn_error': 'None', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False', 'target_path': 'None', 'fail_fast': 'False', 'version_check': 'True', 'quiet': 'False', 'introspect': 'True', 'hints_enabled': 'True', 'printer_width': '80', 'debug': 'False', 'maximum_seed_size_mib': '1', 'write_json': 'True'}
+[0m14:59:25.911609 [debug] [MainThread]: Starter project path: /usr/local/lib/python3.11/site-packages/dbt/include/starter_project
+[0m14:59:26.079459 [info ] [MainThread]: Setting up your profile.
+[0m14:59:33.066410 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m14:59:33.067941 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m14:59:33.069381 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m15:01:41.089573 [info ] [MainThread]: Profile finserve written to /finserve/dbt/profiles.yml using target's profile_template.yml and your supplied values.
+[0m15:01:41.095510 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m15:01:41.097822 [info ] [MainThread]: dbt version: 1.12.3
+[0m15:01:41.099215 [info ] [MainThread]: python version: 3.11.16
+[0m15:01:41.100845 [info ] [MainThread]: python path: /usr/local/bin/python3.11
+[0m15:01:41.102443 [info ] [MainThread]: os info: Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.41
+[0m15:01:41.173504 [info ] [MainThread]: Using profiles dir at /finserve/dbt
+[0m15:01:41.175336 [info ] [MainThread]: Using profiles.yml file at /finserve/dbt/profiles.yml
+[0m15:01:41.177147 [info ] [MainThread]: Using dbt_project.yml file at /finserve/dbt/finserve_dbt/finserve/dbt_project.yml
+[0m15:01:41.179594 [info ] [MainThread]: adapter type: snowflake
+[0m15:01:41.181203 [info ] [MainThread]: adapter version: 1.12.0
+[0m15:01:41.299487 [info ] [MainThread]: Configuration:
+[0m15:01:41.301250 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:01:41.303396 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:01:41.305490 [info ] [MainThread]: Required dependencies:
+[0m15:01:41.307762 [debug] [MainThread]: Executing "git --help"
+[0m15:01:41.310986 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m15:01:41.312598 [info ] [MainThread]: Connection:
+[0m15:01:41.314253 [info ] [MainThread]:   account: WQJCOHK-WB64060
+[0m15:01:41.315989 [info ] [MainThread]:   user: MUHOZGU
+[0m15:01:41.317743 [info ] [MainThread]:   database: FINSERVE_DB
+[0m15:01:41.319442 [info ] [MainThread]:   warehouse: FINSERVE
+[0m15:01:41.321269 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m15:01:41.323958 [info ] [MainThread]:   schema: dev_schema
+[0m15:01:41.325957 [info ] [MainThread]:   authenticator: None
+[0m15:01:41.327629 [info ] [MainThread]:   oauth_client_id: None
+[0m15:01:41.329521 [info ] [MainThread]:   query_tag: None
+[0m15:01:41.331283 [info ] [MainThread]:   client_session_keep_alive: False
+[0m15:01:41.333438 [info ] [MainThread]:   host: None
+[0m15:01:41.335787 [info ] [MainThread]:   port: None
+[0m15:01:41.337660 [info ] [MainThread]:   proxy_host: None
+[0m15:01:41.340099 [info ] [MainThread]:   proxy_port: None
+[0m15:01:41.342444 [info ] [MainThread]:   protocol: None
+[0m15:01:41.344373 [info ] [MainThread]:   connect_retries: 1
+[0m15:01:41.346208 [info ] [MainThread]:   connect_timeout: None
+[0m15:01:41.348250 [info ] [MainThread]:   retry_on_database_errors: False
+[0m15:01:41.350261 [info ] [MainThread]:   retry_all: False
+[0m15:01:41.352282 [info ] [MainThread]:   insecure_mode: False
+[0m15:01:41.354416 [info ] [MainThread]:   reuse_connections: True
+[0m15:01:41.357078 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m15:01:41.359104 [info ] [MainThread]:   workload_identity_provider: None
+[0m15:01:41.360866 [info ] [MainThread]:   workload_identity_entra_resource: None
+[0m15:01:41.362617 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m15:01:41.364795 [info ] [MainThread]: Registered adapter: snowflake=1.12.0
+[0m15:01:41.512337 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m15:01:41.516527 [debug] [MainThread]: Using snowflake connection "debug"
+[0m15:01:41.518165 [debug] [MainThread]: On debug: select 1 as id
+[0m15:01:41.519599 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:01:43.003781 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.484 seconds
+[0m15:01:43.012543 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m15:01:43.020389 [info ] [MainThread]: [31m1 check failed:[0m
+[0m15:01:43.025863 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH: "git"
+
+[0m15:01:43.029448 [info ] [MainThread]: Your new dbt project "finserve" was created!
+Initialized new project in /finserve/dbt/finserve_dbt/finserve/finserve
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:01:43.032364 [info ] [MainThread]: [31mYour profile may need adjustments. You can find the logs of `dbt debug` above[0m
+[0m15:01:43.037373 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 151.89955, "process_in_blocks": "534272", "process_kernel_time": 1.113928, "process_mem_max_rss": "244268", "process_out_blocks": "8400", "process_user_time": 4.303997}
+[0m15:01:43.040091 [debug] [MainThread]: Command `dbt init` succeeded at 15:01:43.039882 after 151.90 seconds
+[0m15:01:43.042585 [debug] [MainThread]: Connection 'debug' was left open.
+[0m15:01:43.044378 [debug] [MainThread]: On debug: Close
+[0m15:01:43.148476 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x732b55132f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x732b5193b9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x732b51a62d50>]}
+[0m15:01:43.150872 [debug] [MainThread]: Flushing usage events
+[0m15:01:43.822964 [debug] [MainThread]: An error was encountered while trying to flush usage events
