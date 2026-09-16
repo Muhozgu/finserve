@@ -18,18 +18,22 @@ Required environment variables (see .env.example):
     SNOWFLAKE_DATABASE    (optional, default FINSERVE)
 
 Usage:
-    python loader/snowflake_loader.py --data-dir data/raw
+    python loader/snowflake_loader.py --data-dir data/
 """
 
 import argparse
 import os
 import sys
+from dotenv import load_dotenv
 
 import pandas as pd
 import snowflake.connector
 from snowflake.connector.pandas_tools import write_pandas
 
 
+
+
+load_dotenv()
 # Maps target Bronze table name -> source CSV filename
 TABLES = {
     "customers": "customers.csv",
@@ -51,8 +55,8 @@ def get_connection():
         user=os.environ["SNOWFLAKE_USER"],
         password=os.environ["SNOWFLAKE_PASSWORD"],
         role=os.environ.get("SNOWFLAKE_ROLE", "ACCOUNTADMIN"),
-        warehouse=os.environ.get("SNOWFLAKE_WAREHOUSE", "COMPUTE_WH"),
-        database = os.environ.get("SNOWFLAKE_DATABASE", "FINSERVE") 
+        warehouse=os.environ.get("SNOWFLAKE_WAREHOUSE", "FINSERVE"),
+        database = os.environ.get("SNOWFLAKE_DATABASE", "FINSERVE_DB") 
     )
 
 
@@ -87,7 +91,7 @@ def load_table(conn, database, schema, table_name, csv_path):
 
 def main():
     parser = argparse.ArgumentParser(description="Load Finserve CSVs into a Snowflake BRONZE schema.")
-    parser.add_argument("--data-dir", type=str, default="data/raw", help="Directory containing the generated CSVs")
+    parser.add_argument("--data-dir", type=str, default="data", help="Directory containing the generated CSVs")
     parser.add_argument("--schema", type=str, default="BRONZE", help="Target Snowflake schema (default: BRONZE)")
     args = parser.parse_args()
 
