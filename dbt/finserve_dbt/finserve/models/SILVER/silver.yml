@@ -1,0 +1,309 @@
+version: 2
+
+models:
+  - name: silver_applications
+    description: Cleaned and standardized applications data ready for analysis
+    columns:
+      - name: application_id
+        description: Unique identifier for the application
+        tests:
+          - unique
+          - not_null
+      
+      - name: customer_id
+        description: Foreign key to customers table
+        tests:
+          - not_null
+      
+      - name: application_date
+        description: Date when application was submitted (cleaned)
+        tests:
+          - not_null
+      
+      - name: decision_date
+        description: Date when application decision was made (cleaned)
+      
+      - name: processing_days
+        description: Number of days from application to decision
+      
+      - name: requested_amount
+        description: Amount requested by customer (cleaned numeric)
+      
+      - name: requested_amount_missing
+        description: Flag indicating if requested amount was missing
+      
+      - name: loan_purpose
+        description: Purpose of the loan (standardized)
+        tests:
+          - accepted_values:
+              values: ['Auto', 'Business', 'Debt Consolidation', 'Education', 'Home Improvement', 'Medical', 'Personal', 'Wedding', 'Unknown']
+      
+      - name: application_status
+        description: Standardized application status
+        tests:
+          - accepted_values:
+              values: ['Approved', 'Rejected', 'Pending', 'Withdrawn', 'In Review', 'Cancelled']
+      
+      - name: application_channel
+        description: Channel through which application was submitted
+        tests:
+          - accepted_values:
+              values: ['Online', 'Branch', 'Mobile App', 'Call Center', 'Partner Referral', 'Unknown']
+
+  - name: silver_customers
+    description: Cleaned and standardized customers data ready for analysis
+    columns:
+      - name: customer_id
+        description: Unique identifier for the customer
+        tests:
+          - unique
+          - not_null
+      
+      - name: full_name
+        description: Concatenated first and last name
+      
+      - name: date_of_birth
+        description: Cleaned date of birth
+      
+      - name: age
+        description: Calculated age based on date of birth
+      
+      - name: age_unrealistic
+        description: Flag indicating if age is under 18 or over 120
+      
+      - name: gender
+        description: Standardized gender (Male, Female, Non-Binary, Unknown)
+        tests:
+          - accepted_values:
+              values: ['Male', 'Female', 'Non-Binary', 'Unknown']
+      
+      - name: employment_status
+        description: Standardized employment status
+        tests:
+          - accepted_values:
+              values: ['Employed', 'Self-Employed', 'Unemployed', 'Retired', 'Student', 'Full-Time', 'Unknown']
+      
+      - name: annual_income
+        description: Cleaned annual income (positive values only)
+      
+      - name: monthly_income
+        description: Cleaned monthly income (positive values only)
+
+  - name: silver_loans
+    description: Cleaned and standardized loans data with performance analysis
+    columns:
+      - name: loan_id
+        description: Unique identifier for the loan
+        tests:
+          - unique
+          - not_null
+      
+      - name: application_id
+        description: Foreign key to applications table
+        tests:
+          - not_null
+      
+      - name: customer_id
+        description: Foreign key to customers table
+        tests:
+          - not_null
+      
+      - name: loan_amount
+        description: Principal loan amount (cleaned, positive only)
+      
+      - name: interest_rate
+        description: Annual interest rate (cleaned, 0-100 range)
+      
+      - name: interest_rate_band
+        description: Categorized interest rate bands
+        tests:
+          - accepted_values:
+              values: ['Very Low (<5%)', 'Low (5-8%)', 'Medium (8-12%)', 'High (12-16%)', 'Very High (>16%)', 'Unknown']
+      
+      - name: term_months
+        description: Loan term in months (cleaned, positive)
+      
+      - name: monthly_payment
+        description: Monthly payment amount (cleaned, positive)
+      
+      - name: start_date
+        description: Date when loan started
+      
+      - name: maturity_date
+        description: Date when loan matures
+      
+      - name: past_maturity
+        description: Flag indicating if loan is past maturity date
+      
+      - name: loan_status
+        description: Standardized loan status (Active, Paid Off, Defaulted, Delinquent)
+        tests:
+          - accepted_values:
+              values: ['Active', 'Paid Off', 'Defaulted', 'Delinquent', 'Unknown']
+      
+      - name: loan_size_band
+        description: Categorized loan size bands
+        tests:
+          - accepted_values:
+              values: ['Small (<$5K)', 'Medium ($5K-$15K)', 'Large ($15K-$30K)', 'Very Large ($30K-$50K)', 'Jumbo (>$50K)', 'Unknown']
+
+  - name: silver_payments
+    description: Cleaned and standardized payment transactions with behavior analysis
+    columns:
+      - name: payment_id
+        description: Unique identifier for the payment
+        tests:
+          - unique
+          - not_null
+      
+      - name: loan_id
+        description: Foreign key to loans table
+        tests:
+          - not_null
+      
+      - name: customer_id
+        description: Foreign key to customers table
+        tests:
+          - not_null
+      
+      - name: due_date
+        description: Date when payment was due (cleaned)
+        tests:
+          - not_null
+      
+      - name: payment_date
+        description: Date when payment was actually made (cleaned)
+      
+      - name: amount_due
+        description: Amount that was due for this payment (cleaned, positive only)
+      
+      - name: amount_paid
+        description: Amount actually paid (cleaned, non-negative)
+      
+      - name: payment_ratio
+        description: Ratio of amount_paid to amount_due (0-1+ for overpayments)
+      
+      - name: is_overpayment
+        description: Flag indicating if payment exceeded the amount due
+      
+      - name: payment_status
+        description: Standardized payment status
+        tests:
+          - accepted_values:
+              values: ['On-Time', 'Late', 'Missed', 'Partial', 'Delayed', 'Unknown']
+      
+      - name: days_late
+        description: Number of days the payment was late (cleaned, non-negative)
+      
+      - name: late_category
+        description: Categorized lateness
+        tests:
+          - accepted_values:
+              values: ['On-Time', '1-7 Days Late', '8-15 Days Late', '16-30 Days Late', '31-45 Days Late', 'Over 45 Days Late', 'Unknown']
+      
+      - name: payment_completion
+        description: Whether payment was Full, Partial, None, or Unknown
+        tests:
+          - accepted_values:
+              values: ['Full', 'Partial', 'None', 'Unknown']
+
+  - name: silver_credit_history
+    description: Cleaned and standardized credit history data with risk analysis
+    columns:
+      - name: credit_history_id
+        description: Unique identifier for the credit history record
+        tests:
+          - unique
+          - not_null
+      
+      - name: customer_id
+        description: Foreign key to customers table
+        tests:
+          - not_null
+      
+      - name: record_date
+        description: Date when credit history was recorded
+        tests:
+          - not_null
+      
+      - name: credit_score
+        description: Credit score (300-850 range, cleaned)
+      
+      - name: credit_score_band
+        description: Categorized credit score band
+        tests:
+          - accepted_values:
+              values: ['Excellent', 'Good', 'Fair', 'Poor', 'Very Poor', 'Unknown']
+      
+      - name: total_outstanding_debt
+        description: Total outstanding debt (cleaned, non-negative)
+      
+      - name: credit_utilization
+        description: Credit utilization ratio (0-1 range, cleaned)
+      
+      - name: utilization_band
+        description: Categorized credit utilization bands
+        tests:
+          - accepted_values:
+              values: ['Very Low (<10%)', 'Low (10-30%)', 'Moderate (30-50%)', 'High (50-75%)', 'Very High (>75%)', 'Unknown']
+      
+      - name: previous_defaults
+        description: Number of previous defaults
+      
+      - name: previous_late_payments
+        description: Number of previous late payments
+      
+      - name: multiple_defaults
+        description: Flag indicating if customer has 2+ defaults
+      
+      - name: chronic_late_payer
+        description: Flag indicating if customer has 3+ late payments
+
+  - name: silver_risk_assessment
+    description: Cleaned and standardized risk assessments data
+    columns:
+      - name: assessment_id
+        description: Unique identifier for the risk assessment
+        tests:
+          - unique
+          - not_null
+      
+      - name: customer_id
+        description: Foreign key to customers table
+        tests:
+          - not_null
+      
+      - name: loan_id
+        description: Foreign key to loans table (NULL for rejected applications)
+      
+      - name: assessment_date
+        description: Date when risk assessment was performed
+        tests:
+          - not_null
+      
+      - name: risk_score
+        description: Risk score (300-850 scale, cleaned)
+      
+      - name: risk_score_band
+        description: Categorized risk score band
+        tests:
+          - accepted_values:
+              values: ['Excellent', 'Good', 'Fair', 'Poor', 'Very Poor', 'Unknown']
+      
+      - name: probability_of_default
+        description: Probability of default (0-1 scale, cleaned)
+      
+      - name: probability_band
+        description: Categorized probability of default bands
+        tests:
+          - accepted_values:
+              values: ['Very Low', 'Low', 'Moderate', 'High', 'Very High', 'Unknown']
+      
+      - name: risk_category
+        description: Standardized risk category (LOW, MEDIUM, HIGH)
+        tests:
+          - accepted_values:
+              values: ['LOW', 'MEDIUM', 'HIGH', 'Unknown']
+      
+      - name: model_version
+        description: Version of the risk model used
