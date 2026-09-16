@@ -1,5 +1,4 @@
-# NovaSpin Casino Analytics pipeline
-#
+
 # These are one-off pipeline stages, not long-running services, so run
 # them in order with `docker compose run` rather than `docker compose up`
 # (with `up`, all three would start in parallel and the loader would run
