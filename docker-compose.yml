@@ -42,7 +42,7 @@ services:
       DBT_PROFILES_DIR: /finserve/dbt
     volumes:
       - ./dbt:/finserve/dbt
-    working_dir: /finserve/dbt/finserve_dbt/finserve
+    working_dir: /finserve/dbt/finserve_dbt/
     entrypoint: ["dbt"]
     # default command; override e.g. `docker compose run --rm dbt test`
     command: ["run"]
