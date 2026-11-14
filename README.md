@@ -4,7 +4,7 @@ An AI-powered process automation platform for financial operations, combining a 
 
 ## Project Goals
 
-- Practice building a full data + AI automation pipeline end to end (ingestion → warehouse → transformation → agents → reporting)
+- Build a full data + AI automation pipeline end to end (ingestion → warehouse → transformation → agents → reporting)
 - Automate realistic financial ops tasks: credit memo generation, support ticket triage, portfolio reporting
 - Apply a medallion (Bronze/Silver/Gold) architecture with dbt
 - Orchestrate LLM-driven agents (Llama 3) into existing operational workflows via n8n and Power Automate
